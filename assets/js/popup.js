@@ -58,7 +58,7 @@
     }
     
     function popup132() {
-        CreativaPopup.create('Close me :)', 'alert', '', { titleColor: '#b0b0b0', textColor: '#b0b0b0',});
+        CreativaPopup.create('Close me :)', '', '', { titleColor: '#b0b0b0', textColor: '#b0b0b0',});
     }
 
     function popup14() {
