@@ -510,8 +510,10 @@
 					-webkit-transition: all 0.2s ease-in-out;
 					-ms-transition: all 0.2s ease-in-out;
 					transition: 0.2s ease-in-out;
-					border-radius: 100%;
+					border-radius: 35%;
 					border: solid 1px #fff;
+					/* border-top: solid 2px #fff; */
+					/* border-bottom: solid 2px #fff; */
 					display: block;
 					font-size: 1.75em;
 					height: 2.5em;
@@ -520,8 +522,8 @@
 					text-align: center;
 					top: 0;
 					width: 2.5em;
-					background-color: rgba(0, 0, 0, 0.187);
-					backdrop-filter: blur(69px);
+					/* background-color: rgba(0, 0, 0, 0.187); */
+					/* backdrop-filter: blur(69px); */
 				}
 
 				#header nav a:hover {
