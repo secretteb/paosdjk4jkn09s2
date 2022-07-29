@@ -54,13 +54,15 @@
     }
     
     function popup13() {
-        CreativaPopup.create('Feel free to DM me <font style="color: #b19cff; cursor: pointer;" onclick="allahm109kd();">outuby#7969</font> :)<br> <font style="color: #696969; font-size: smaller;"> or use mail admin@outuby.space </font>', 'Discord', '', { titleColor: '#b0b0b0', textColor: '#b0b0b0' });
+        CreativaPopup.create('Feel free to DM me <font style="color: #b19cff; cursor: pointer;" onclick="allahm109kd(); allahm109kd2();">outuby#7969</font> :)<br> <font style="color: #696969; font-size: smaller;"> or use mail admin@outuby.space </font>', 'Discord', '', { titleColor: '#b0b0b0', textColor: '#b0b0b0' });
     }
 
     function allahm109kd() {
         navigator.clipboard.writeText("outuby#7969");
+        setTimeout(function(){
         alert("Discord username was copied to the clipboard");
-      }
+        }, 50);
+    }
     
     function popup132() {
         CreativaPopup.create('Close me :)', '', '', { titleColor: '#b0b0b0', textColor: '#b0b0b0',});
