@@ -9,6 +9,43 @@
 margin-top: 15%;
 }
 
+@media (max-width: 1000px) {
+  .centered {
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 750px) {
+  .centered {
+    margin-top: 30%;
+  }
+}
+
+@media (max-width: 650px) {
+  .centered {
+    margin-top: 43%;
+  }
+}
+
+@media (max-width: 540px) and (max-height: 720px) {
+  .centered {
+    margin-top: 38%;
+  }
+}
+
+@media (max-width: 450px) {
+  .centered {
+    margin-top: 48%;
+  }
+}
+
+@media (max-width: 350px) {
+  .centered {
+    margin-top: 69%;
+  }
+}
+
+
 /* #videobcg {
   position:fixed;
   z-index: -1;
