@@ -287,3 +287,7 @@ i.fa-step-backward {
   transform: scale(1.1);
   cursor: pointer;
 }
+
+.outubyx:hover {
+  cursor: pointer;
+}
