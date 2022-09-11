@@ -279,16 +279,15 @@ i.fa-step-backward {
 }
 
 .skiush {
-  font-size: x-large;
+  color: #fff; 
+  cursor: pointer; 
+  font-size: xx-large;
   transition: all .2s ease-in-out;
 }
 
 .skiush:hover {
   transform: scale(1.1);
-  cursor: pointer;
-}
-
-.outubyx:hover {
+  color: #8867ff;
   cursor: pointer;
 }
 
@@ -299,4 +298,19 @@ i.fa-step-backward {
 }
 .contactding:hover {
   color: #8867ff;
+}
+
+.outubybig {
+  font-size: 6.9rem; 
+  font-family: system-ui; 
+  text-transform: uppercase;
+  transition: all .1s ease-in-out;
+}
+.outubybig:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
+.outubybig:active {
+  color: #8867ff;
+  cursor: pointer;
 }
