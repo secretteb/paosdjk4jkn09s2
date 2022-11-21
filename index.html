@@ -1,364 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-   <title>Outuby</title>
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="description" content="">
-   <meta name="keywords" content="">
-   <meta name="author" content="">
-   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-   <meta charset="utf-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <meta name="description" content="If you read this you have to subscribe to my yt :)">
+    <meta charset="utf-8">
+    <title>Outuby</title>
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+          name="viewport">
 
-   <meta content="outuby.space 👑" property="og:title" />
-   <meta content="if ur reading this sub to my yt" property="og:description" />
-   <meta content="https://outuby.space" property="og:url" />
-   <meta content="/assets/outubyismygod.png" property="og:image" />
-   <meta content="#BD00FF" data-react-helmet="true" name="theme-color" />
+    <meta content="outuby.space 👑" property="og:title"/>
+    <meta content="if ur reading this sub to my yt" property="og:description"/>
+    <meta content="https://outuby.space" property="og:url"/>
+    <meta content="/img/outubyismygod.png" property="og:image"/>
+    <meta content="#BD00FF" data-react-helmet="true" name="theme-color"/>
 
-   <link rel="stylesheet" href="assets/css/main.css" />
-   <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
-   <link rel='stylesheet' href='assets/css/vendor.css'>
-   <link rel='stylesheet' href='assets/css/cock.css' id="theme">
-   <link rel='stylesheet' href='assets/css/custom.css'>
-   <link rel='stylesheet' href='assets/css/demo.css'>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" href="assets/css/allah.css">
-   <link rel="stylesheet" href="assets/css/creativa-popup.css">
-   <script src="assets/js/test.js"></script>
-   <script src="assets/js/creativa-popup.js" type="text/javascript"></script>
-   <script src="assets/js/popup.js" type="text/javascript"></script>
-   <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-   <script src='assets/js/vendor/html5shiv.min.js'></script>
-   <script src='assets/js/title.js'></script>
-   <link rel="stylesheet" href="assets/css/not.css">
-   <!-- <script src="assets/js/nogero.js"></script> -->
-   <script src="https://unpkg.com/scrollreveal@4"></script>
-   <!-- <script src="assets/js/jungediescrollscheißenervtmichextrem.js"></script> -->
-   <script src="assets/js/thingy.js"></script>
-   <link rel="icon" type="image/ico" href="assets/outubyismygod.png"/>
+    <meta content="If you read this you have to subscribe to my yt :)" name="description">
 
-   <style>
-      #video-detach-button {
-         display: none !important;
-      }
-      #detach-button-host {
-         display: none !important;
-      }
-   </style>
+    <link href="img/outubyismygod.png" rel="icon" type="image/ico"/>
+
+    <!-- CSS -->
+    <link href="css/particles.css" media="screen" rel="stylesheet">
+    <link href="css/main.css" media="screen" rel="stylesheet">
+    <link href="css/creativa-popup.css" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="js/title.js"></script>
+    <script src="js/creativa-popup.js" type="text/javascript"></script>
+    <script src="js/popup.js" type="text/javascript"></script>
 
 </head>
+<body>
 
-<!-- <script>
-   if (document.referrer !== document.location.href) {
-    setTimeout(function() {
-        document.location.reload()
-  }, 2500);
-}
-</script> -->
+<video id="myVideo" loop>
+    <source src="video/wiu.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
 
-<style>
-   h2, h3, h4, h5, h6{
-      font-family: system-ui;
-   }
-</style>
+<!-- particles.js container -->
+<div id="particles-js"></div>
+<div class="center">
+    <!--        <div class="blur"></div>-->
+    <div class="content">
+        <div class="otspace">
+            <h1 class="outubybig" onclick="playRandomSound();">Outuby</h1>
+            <p>space</p>
+        </div>
+        <div class="typed">
+            <h2><span class="type"></span></h2>
+        </div>
 
-<body style="background: linear-gradient(0deg, rgb(32, 0, 105) 0%, rgba(0, 0, 0) 100%); text-shadow: rgb(0 0 0) 2px 2px 8px;" oncontextmenu="return false;" onkeydown="return false;">
-   <div class="site-loader" style="user-select: none;">
-      <span></span>
-      <p>loading...</p>
-   </div>
-   <div class="site-bg" style="user-select: none;">
-      <div class="site-bg__overlay"></div>
-      <div class="site_countdown"></div>
-      <div class="site-bg__effect"></div>
-      <canvas class="site-bg__canvas"></canvas>
-   </div>
-   <header>
-   <div class="loading">
-      <div id="wrapper">
-         <div id="main">
-            <header id="header">
+        <!--              <div class="btnlist">-->
+        <!--                <a href="https://youtube.com/outuby" class="btnn"> <i class="fa-brands fa-youtube"></i> Youtube</a>-->
+        <!--                <a href="#" class="btnn" onclick="popup13()"> <i class="fa-regular fa-comment"></i> Contact</a>-->
+        <!--                <a href="projects/" class="btnn"> <i class="fa-solid fa-code"></i> Projects</a>-->
+        <!--              </div>-->
 
-               <video id="videobcg" preload="auto" loop="true" volume=".02" style="opacity: .3;">
-                  <source src="assets/video/Whip It Up.mp4" type="video/mp4">
-                     Bruh your browser does not support HTML5 video, loser.
-                 </video>
-
-                  <script>
-                  function toggleMute() {
-
-                     var video=document.getElementById("videobcg")
-
-                     if(video.muted){
-                     	video.muted = false;
-                        // video.play = true;
-                        video.volume = .2;
-                        console.log("unmuted");
-                     } else {
-                     	video.muted = true;
-                        // video.play = true;
-                        video.volume = .25;
-                        console.log("muted");
-                     }
-                  }
-
-                     function togglePlay() {
-
-                     var video2=document.getElementById("videobcg")
-
-                     if(video2.play == true){
-                        video2.pause();
-                        console.log("paused");
-                     } else {
-                        video2.play();
-                        console.log("playing");
-                     }
-
-                    }
-                  </script>
-
-                  <script>
-
-                     var delayInMilliseconds = 2000;
-
-                     setTimeout(function() {
-                        // toggleMute();
-                        popup132();
-                     }, delayInMilliseconds);
-
-                  </script>
-
-                  <script>
-                     console.stdlog = console.log.bind(console);
-                     console.logs = [];
-                     console.log = function(){
-                         console.logs.push(Array.from(arguments));
-                         console.stdlog.apply(console, arguments);
-                     }
-
-
-
-                     var vid = document.getElementById("videobcg");
-
-                     function playVid() {
-                       vid.play();
-                     }
-
-
-
-                     function nig1() {
-                         setTimeout(function () {
-                         negro();
-                         nig2();
-                        // console.log("switch1")
-                         }, 50);
-                         }
-                     function nig2() {
-                         setTimeout(function () {
-                         negro();
-                         nig1();
-                        // console.log("switch2")
-                         }, 50);
-                         }
-
-                     function negro() {
-                        // console.log("test")
-                         if (console.logs.length == 1) {
-                           console.log("nogger")
-                           togglePlay();
-                           toggleMute();
-                           toggleMute();
-                         }
-                     }
-
-                     nig1();
-                  </script>
-
-            <div class="centered">
-               <div style="transform: translateY(10px); user-select: none;">
-               <span class="outubybig" onclick="playRandomSound();">Outuby</span>
-               <p id='player' style="font-size: 1px;"></p>
-               </div>
-               <div style="user-select: none;">
-               <h2 style="transform: translateY(-15px);"><font size="2">space</font></h2>
-               <br>
-               <h3 style="font-weight: 300; transform: translateY(-15px);"> <span class="type"></span></h3>
-               <nav>
-                  <ul>
-
-                  <div>
-                     <li><a href="https://www.youtube.com/outuby" class="fa fa-youtube left" target="_blank"></a>Youtube</li>
-                     <li><a href="#" class="icon fa-comments" target="_blank" onclick="popup13()"></a>Contact</li>
-                     <li><a href="projects/" class="fa fa-laptop-code left"></a>Projects</li>
-                  </div>
-
-                  </ul>
-               </nav>
-               <h3 style="padding-bottom: 5px; margin-top: 25px;">Volume</h3>
-            <div class="">
-               <a class="purple-head hover-black skiush" onclick="changeIcon(this), toggleMute();" id="myBtn">
-                 <i id="faVolume" class="fa-solid fa-volume-high"></i>
-                 <span> </span>
-               </a>
+        <div class="wrap">
+            <div>
+                <a href="https://youtube.com/outuby">
+                    <p class='button'>
+                        <i class="fa-brands fa-youtube"></i>
+                        Youtube
+                    </p>
+                </a>
             </div>
+            <div>
+                <a href="#" onclick="popup13()">
+                    <p class='button'>
+                        <i class="fa-regular fa-comment"></i>
+                        Contact
+                    </p>
+                </a>
             </div>
-         </header>
-      </div>
-      <p style="position: fixed; bottom: 0; width:100%; text-align: center; user-select: none; opacity: .3;" class="allahgh3">Copyright © 2022 outuby.space</p>
-   </div>
+            <div>
+                <a href="projects/">
+                    <p class='button'>
+                        <i class="fa-solid fa-code"></i>
+                        Projects
+                    </p>
+                </a>
+            </div>
+        </div>
+
+
+        <script>
+            var video=document.getElementById("myVideo")
+
+            function nigg() {
+                video.play();
+                video.muted = false;
+                video.volume = .2;
+            }
+
+        </script>
+
+    </div>
 </div>
+
+<div class="modal" id="modal">
+    <div class='modal__container'>
+        <div class="modal__content">
+            <h1 class="modal__title">click to enter<h1>
+        </div>
+        <i id="close" class="fas fa-times" style="font-size: 250rem; transform: translateY(-1700px) translateX(1200px); opacity: 0;" onclick="nigg();"></i>
+    </div>
 </div>
+
+<span id='player' style="transform: translateY(-1000px)"></span>
+
+<script src="js/typed.js"></script>
+<script src="js/allah.js"></script>
+
+<script>
+    var typed = new Typed('.type', {
+        strings: [
+            "I'm a german web developer",
+            "I'm a designer",
+            "I'm a liar",
+            "I'm retarded",
+            "<a onclick='popup13()' class='contactding' style='font-weight: bolder;'>hmu</a> if you need a website",
+            "<a onclick='popup13()' class='contactding' style='font-weight: bolder;'>hmu</a> if you need a website",
+            "<a onclick='popup13()' class='contactding' style='font-weight: bolder;'>hmu</a> if you need a website",
+            "I dont have friends (except exeos, error and $kush)",
+            "Keiner kann mich stoppen, nicht einmal ein Stoppschild",
+        ],
+        typeSpeed: 69,
+        backSpeed: 32,
+        backDelay: 1500,
+        loop: true,
+        smartBackspace: true,
+    });
+</script>
+
+
+<!-- scripts -->
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/9105e9014d.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<script src="js/main.js"></script>
+
+
 </body>
-<head>
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-   <script>
-		ScrollReveal().reveal('.allahgh1', {
-        duration: 1000,
-        origin: 'bottom',
-        distance: '420rem',
-        delay: 2600
-     });
-     ScrollReveal().reveal('.allahgh2', {
-        duration: 1000,
-        origin: 'bottom',
-        distance: '420rem',
-        delay: 2900
-     });
-     ScrollReveal().reveal('.allahgh3', {
-        duration: 1000,
-        origin: 'bottom',
-        distance: '420rem',
-        delay: 3100
-      });
-	</script>
-
-   <script src="assets/js/typed.js"></script>
-   <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
-   <script src='assets/js/vendor/bootstrap.min.js'></script>
-   <script src='assets/js/vendor/plugin.js'></script>
-   <script src='assets/js/variable.js'></script>
-   <script src='assets/js/main.js'></script>
-   <script src='assets/js/demo.js'></script>
-   <script src="https://kit.fontawesome.com/9105e9014d.js" crossorigin="anonymous"></script>
-
-<script>
-   var typed = new Typed('.type', {
-  strings: [
-      "I'm a german web developer",
-      "I'm a designer",
-      "I'm a liar",
-      "I'm retarded",
-      "<a onclick='popup13()' class='contactding' style='font-weight: bolder;'>hmu</a> if you need a website",
-      "<a onclick='popup13()' class='contactding' style='font-weight: bolder;'>hmu</a> if you need a website",
-      "<a onclick='popup13()' class='contactding' style='font-weight: bolder;'>hmu</a> if you need a website",
-      "I dont have friends (except exeos and felix)",
-      "Keiner kann mich stoppen,<br> nicht einmal ein Stoppschild",
-   ],
-   typeSpeed: 69,
-   backSpeed: 32,
-   backDelay: 1500,
-   loop: true,
-   smartBackspace: true // Default value
-});
-</script>
-
-<script language="JavaScript">
-   //////////F12 disable code////////////////////////
-       document.onkeypress = function (event) {
-           event = (event || window.event);
-           if (event.keyCode == 123) {
-              //alert('No F-12');
-               return false;
-           }
-       }
-       document.onmousedown = function (event) {
-           event = (event || window.event);
-           if (event.keyCode == 123) {
-               //alert('No F-keys');
-               return false;
-           }
-       }
-   document.onkeydown = function (event) {
-           event = (event || window.event);
-           if (event.keyCode == 123) {
-               //alert('No F-keys');
-               return false;
-           }
-       }
-   var message=":o";
-   function clickIE() {if (document.all) {(message);return false;}}
-   function clickNS(e) {if
-   (document.layers||(document.getElementById&&!document.all)) {
-   if (e.which==2||e.which==3) {(message);return false;}}}
-   if (document.layers)
-   {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
-   else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
-   document.oncontextmenu=new Function("return false")
-   function disableCtrlKeyCombination(e)
-   {
-   var forbiddenKeys = new Array('a', 'n', 'c', 'x', 'v', 'j' , 'w' , 'i');
-   var key;
-   var isCtrl;
-   if(window.event)
-   {
-   key = window.event.keyCode;
-   if(window.event.ctrlKey)
-   isCtrl = true;
-   else
-   isCtrl = false;
-   }
-   else
-   {
-   key = e.which;
-   if(e.ctrlKey)
-   isCtrl = true;
-   else
-   isCtrl = false;
-   }
-   if(isCtrl)
-   {
-   for(i=0; i<forbiddenKeys.length; i++)
-   {
-   if(forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase())
-   {
-   alert('Key combination CTRL + '+String.fromCharCode(key) +' has been disabled.');
-   return false;
-   }
-   }
-   }
-   return true;
-   }
-   </script>
-
-<script>
-   window.addEventListener('keydown', function (e) {
-       if (e.key === 'F5') {
-           location.reload();
-       }
-       else if (e.key === 'F11') {
-           toggleFullscreen();
-       }
-   },
-   
-   false);
-
-   function getFullscreenElement() {
-     return document.fullscreenElement   //standard property
-     || document.webkitFullscreenElement //safari/opera support
-     || document.mozFullscreenElement    //firefox support
-     || document.msFullscreenElement;    //ie/edge support
-  }
-
-  function toggleFullscreen() {
-     if(getFullscreenElement()) {
-        document.exitFullscreen();
-     }else {
-   document.documentElement.requestFullscreen().catch(console.log);
-     }
-  }
-</script>
-
-</head>
 </html>
