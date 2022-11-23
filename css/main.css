@@ -218,7 +218,7 @@ h1, p, span, a, li {
     .wrap {
         width: auto;
         height: auto;
-        transform: translateX(53px);
+        transform: translateX(57px);
     }
     .wrap .button {
         margin-top: 0.5rem;
@@ -233,7 +233,7 @@ h1, p, span, a, li {
         font-size: 4.20rem;
     }
     .wrap {
-        transform: translateX(20px);
+        transform: translateX(21px);
     }
     .notfoiund {
         transform: translateX(0rem)
