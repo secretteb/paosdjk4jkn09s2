@@ -218,7 +218,7 @@ h1, p, span, a, li {
     .wrap {
         width: auto;
         height: auto;
-        transform: translateX(57px);
+        transform: translateX(64px);
     }
     .wrap .button {
         margin-top: 0.5rem;
