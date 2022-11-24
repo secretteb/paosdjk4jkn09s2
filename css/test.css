@@ -1,0 +1,12 @@
+@media only screen and (max-width: 478px) {
+    body {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .cockni h1 {
+        font-size: 4.2rem;
+    }
+}
+
