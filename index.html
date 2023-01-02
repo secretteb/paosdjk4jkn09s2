@@ -35,11 +35,20 @@
         }, 700);
     });
 
-    window.addEventListener('beforeunload', function() {
+    window.addEventListener('load', function() {
         const preloader = document.querySelector('.preloader');
         preloader.style.opacity = 1;
         preloader.classList.remove('hidden');
     });
+
+    // reload the page 1 time
+    var count = 0;
+    function reload() {
+        if (count == 0) {
+            count++;
+            location.reload();
+        }
+    }
 </script>
 
 </head>

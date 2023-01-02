@@ -33,7 +33,7 @@
             }, 500);
         });
 
-        window.addEventListener('beforeunload', function() {
+        window.addEventListener('load', function() {
             const preloader = document.querySelector('.preloader');
             preloader.style.opacity = 1;
             preloader.classList.remove('hidden');

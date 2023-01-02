@@ -428,6 +428,10 @@ img {
     backdrop-filter: blur(5px);
 }
 
+.preloader img {
+   border-radius: 50rem;
+}
+
 
 .hidden {
     /*transition: opacity 0.5s ease-out;*/
