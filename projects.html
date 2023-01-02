@@ -43,6 +43,16 @@
             preloader.style.opacity = 1;
             preloader.classList.remove('hidden');
         });
+
+
+        // reload the page 1 time
+        var count = 0;
+        function reload() {
+            if (count == 0) {
+                count++;
+                location.reload();
+            }
+        }
     </script>
 
 </head>
@@ -64,7 +74,7 @@
         </div>
         <br><br>
 
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="cock" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="img/tirednextgen_CD.png" alt="Tired Client" style="border-radius: 2rem">
@@ -88,11 +98,11 @@
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#cock" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#cock" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
