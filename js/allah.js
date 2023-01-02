@@ -12,5 +12,3 @@ modalBtn.addEventListener('click',()=>{modalMenu.classList.remove('show')});
 modalMenu.addEventListener('click',()=>{modalMenu.classList.remove('show');});
 
 const countEl = document.getElementById('count');
-
-

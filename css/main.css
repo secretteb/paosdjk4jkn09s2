@@ -271,11 +271,9 @@ h1, p, span, a, li {
 }
 
 
-
-
 .modal__img {max-width:60%;height:auto;display:block;}
 .modal{
-    z-index: 1000;
+    z-index: 998;
     max-width: 100%;
     width: 100%;
     position: fixed;
@@ -355,6 +353,30 @@ main{text-align: center;}
     text-decoration: none;
 }
 
+
+.carousel-caption {
+    animation: cokimoki 1.5s;
+    -webkit-animation: cokimoki 1.5s; /* Safari and Chrome */
+    -moz-animation: cokimoki 1.5s; /* Firefox */
+    -o-animation: cokimoki 1.5s; /* Opera */
+    -ms-animation: cokimoki 1.5s; /* Internet Explorer */
+}
+
+@keyframes cokimoki {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: .5;
+    }
+    69% {
+         opacity: .5;
+     }
+    100% {
+        opacity: 0;
+    }
+}
+
 img {
     -webkit-user-drag: none;
     -khtml-user-drag: none;
@@ -367,4 +389,56 @@ img {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes expand {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    min-height: 100px;
+    z-index: 999;
+    backdrop-filter: blur(5px);
+}
+
+
+.hidden {
+    /*transition: opacity 0.5s ease-out;*/
+    opacity: 0;
+    display: none;
+}
+
+.spin {
+    animation: spin 1s cubic-bezier(0.42, 0, 0.16, 1.01) infinite;
+}
+
+.expand-fade-out {
+    animation: expand .7s ease-out;
 }

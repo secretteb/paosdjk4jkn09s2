@@ -24,10 +24,30 @@
     <!-- JS -->
     <script src="js/title2.js"></script>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const preloader = document.querySelector('.preloader');
+            preloader.classList.add('expand-fade-out');
+            setTimeout(function() {
+                preloader.classList.add('hidden');
+            }, 500);
+        });
+
+        window.addEventListener('beforeunload', function() {
+            const preloader = document.querySelector('.preloader');
+            preloader.style.opacity = 1;
+            preloader.classList.remove('hidden');
+        });
+    </script>
+
 </head>
-<body oncontextmenu="return false;" onkeydown="return false;">
+<body oncontextmenu="return false;" onkeydown="return false;" style="overflow: hidden">
+<!--<body oncontextmenu="return false;" style="overflow: hidden">-->
 
 <!--TODO: add preloader-->
+<div class="preloader">
+    <img class="spin" src="img/outubyismygod.png" alt="Preloader" width="500px" height="auto">
+</div>
 
 <!-- particles.js container -->
 <div id="particles-js"></div>
