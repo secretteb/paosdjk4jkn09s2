@@ -140,7 +140,8 @@ h1, p, span, a, li {
     font-size: 6.9rem;
     font-family: system-ui;
     text-transform: uppercase;
-    transition: all .25s cubic-bezier(0.42, 0, 0.51, 1.87);
+    /*transition: all .25s cubic-bezier(0.42, 0, 0.51, 1.87);*/
+    transition: transform .25s cubic-bezier(0.42, 0, 0.51, 1.87), color .08s ease-in-out;
 }
 .outubybig:hover {
     transform: scale(1.05);
@@ -432,7 +433,6 @@ img {
    border-radius: 50rem;
 }
 
-
 .hidden {
     opacity: 0;
     display: none;
@@ -444,4 +444,28 @@ img {
 
 .expand-fade-out {
     animation: expand .7s ease-out;
+}
+
+
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: spin 1s cubic-bezier(0.42, 0, 0.16, 1.01) infinite;
+}
+
+.disppear{
+    animation: expand-fade-out 0.7s forwards;
+}
+
+@keyframes vanish {
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
 }
