@@ -266,7 +266,7 @@ h1, p, span, a, li {
     width: 100%;
 }
 
-.cockni {
+.ubschr {
     text-align: center;
     width: 100%;
 }
@@ -356,14 +356,14 @@ main{text-align: center;}
 
 
 .carousel-caption {
-    animation: cokimoki 1.5s;
-    -webkit-animation: cokimoki 1.5s; /* Safari and Chrome */
-    -moz-animation: cokimoki 1.5s; /* Firefox */
-    -o-animation: cokimoki 1.5s; /* Opera */
-    -ms-animation: cokimoki 1.5s; /* Internet Explorer */
+    animation: hintanimation 1.5s;
+    -webkit-animation: hintanimation 1.5s; /* Safari and Chrome */
+    -moz-animation: hintanimation 1.5s; /* Firefox */
+    -o-animation: hintanimation 1.5s; /* Opera */
+    -ms-animation: hintanimation 1.5s; /* Internet Explorer */
 }
 
-@keyframes cokimoki {
+@keyframes hintanimation {
     0% {
         opacity: 0;
     }
