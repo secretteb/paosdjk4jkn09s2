@@ -141,7 +141,7 @@ h1, p, span, a, li {
     font-family: system-ui;
     text-transform: uppercase;
     /*transition: all .25s cubic-bezier(0.42, 0, 0.51, 1.87);*/
-    transition: transform .25s cubic-bezier(0.42, 0, 0.51, 1.87), color .08s ease-in-out;
+    transition: transform .25s cubic-bezier(0.42, 0, 0.51, 1.87), color .08s ease-in-out, .2s ease-in-out;
 }
 .outubybig:hover {
     transform: scale(1.05);
