@@ -68,6 +68,7 @@
 @media only screen and (max-width: 415px) {
     #popup-messageSM {
         font-size: 1rem;
+        padding-top: 0.813em;
         transform: translateY(5px);
     }
     #popupSM {
