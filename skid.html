@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PW87BT2BNH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-PW87BT2BNH');
+    </script>
+    <meta charset="utf-8">
+    <title>Skid</title>
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+          name="viewport">
+
+    <meta content="outuby.space 👑" property="og:title"/>
+    <meta content="if ur reading this sub to my yt" property="og:description"/>
+    <meta content="https://outuby.space" property="og:url"/>
+    <meta content="img/outubyismygod.png" property="og:image"/>
+    <meta content="#BD00FF" data-react-helmet="true" name="theme-color"/>
+
+    <meta content="If you read this you have to subscribe to my yt :)" name="description">
+
+    <link href="img/laugh_at_skids.png" rel="icon" type="image/ico"/>
+
+    <!-- CSS -->
+    <link href="css/particles.css" media="screen" rel="stylesheet">
+    <link href="css/main.css" media="screen" rel="stylesheet">
+    <link href="css/creativa-popup.css" rel="stylesheet">
+    <link href="css/test.css" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="js/title3.js"></script>
+    <script src="js/skidsecurity.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const preloader = document.querySelector('.preloader');
+            preloader.classList.add('expand-fade-out');
+            setTimeout(function() {
+                preloader.classList.add('hidden');
+            }, 500);
+        });
+
+        window.addEventListener('load', function() {
+            const preloader = document.querySelector('.preloader');
+            preloader.style.opacity = 1;
+            preloader.classList.remove('hidden');
+        });
+    </script>
+
+</head>
+<body oncontextmenu="return false;" onkeydown="return false;" style="overflow: hidden">
+
+<!--TODO: add preloader-->
+<!--<div class="preloader">-->
+<!--    <img class="spin" src="img/outubyismygod.png" alt="Preloader" width="500px" height="auto">-->
+<!--</div>-->
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+<div class="center">
+    <!--        <div class="blur"></div>-->
+    <div class="content">
+        <div class="typed2" style="transform: translateY(-50px)">
+            <h1><span class="type"></span></h1>
+        </div>
+
+        <div class="wrap skid">
+            <div>
+                <a href="https://outuby.space/">
+                    <p class='button skid2'>
+                        <i class="fa-solid fa-angles-left"></i>
+                        I'm a skid.
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer id="footer">
+          <span class="copyright">Copyright © 2023 outuby.space</span>
+</footer>
+
+<script src="js/typed.js"></script>
+
+<script>
+    var typed = new Typed('.type', {
+        strings: [
+            "Look at you...",
+            "Look at you... skidding websites...",
+            "Look at you... skidding websites... wow...",
+        ],
+        typeSpeed: 69,
+        backSpeed: 32,
+        backDelay: 1000,
+        loop: false,
+        smartBackspace: true,
+    });
+</script>
+
+<script>
+    window.addEventListener('keydown', function (e) {
+            if (e.key === 'F5') {
+                location.reload();
+            }
+            else if (e.key === 'F11') {
+                toggleFullscreen();
+            }
+        },
+
+        false);
+
+    function getFullscreenElement() {
+        return document.fullscreenElement   //standard property
+            || document.webkitFullscreenElement //safari/opera support
+            || document.mozFullscreenElement    //firefox support
+            || document.msFullscreenElement;    //ie/edge support
+    }
+
+    function toggleFullscreen() {
+        if(getFullscreenElement()) {
+            document.exitFullscreen();
+        }else {
+            document.documentElement.requestFullscreen().catch(console.log);
+        }
+    }
+</script>
+
+
+<!-- scripts -->
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/9105e9014d.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>

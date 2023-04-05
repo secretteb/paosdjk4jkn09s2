@@ -72,6 +72,14 @@ h1, p, span, a, li {
     font-weight: lighter;
 }
 
+.typed2 h1{
+    font-size: 3.5rem;
+    /*font-weight: lighter;*/
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 /*.btnlist {*/
 /*    display: flex;*/
 /*    justify-content: center;*/
@@ -213,6 +221,21 @@ h1, p, span, a, li {
 /* cock coded 404 stuff */
 .notfoiund {
     transform: translateX(16rem)
+}
+
+/* skid stuff */
+.skid2 {
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-53%) !important;
+}
+
+.skid2:hover {
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-53%) scale(1.1) !important;
+    background: white !important;
+    color: black !important;
 }
 
 @media only screen and (max-width: 742px) {
