@@ -1,6 +1,7 @@
 body {
     color: white;
     background: #000000;
+    /*background: white;*/
     font-family: system-ui, sans-serif;
     user-select: none;
 }
@@ -166,13 +167,14 @@ h1, p, span, a, li {
     position: fixed;
     right: 0;
     bottom: 0;
-    min-width: 120%;
-    min-height: 120%;
-    top: -10%;
-    left: -25%;
+    min-width: 100%;
+    min-height: 100%;
+    /*top: -10%;*/
+    /*left: -25%;*/
     z-index: -2;
-    opacity: .5;
-    filter: blur(.5rem);
+    opacity: .9;
+    filter: blur(.2rem);
+    -webkit-filter: blur(.2rem);
 }
 
 .wrap {
@@ -292,6 +294,10 @@ h1, p, span, a, li {
 .ubschr {
     text-align: center;
     width: 100%;
+}
+
+.ubschr span {
+    font-size: 4.20rem;
 }
 
 
@@ -490,5 +496,29 @@ img {
     100%{
         opacity: 0;
         visibility: hidden;
+    }
+}
+
+.back-arrow {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    transition: .3s cubic-bezier(0.42, 0, 0.16, 1.01);
+}
+
+.back-arrow:hover {
+    transform: translatex(-5px);
+    color: #a28aff;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+    /* Show the back arrow on desktop devices with a minimum width of 768px */
+    .back-arrow {
+        display: block;
     }
 }
