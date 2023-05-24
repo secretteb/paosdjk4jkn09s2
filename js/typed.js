@@ -1,1 +1,1052 @@
-function _0x4166(_0x5d1c77,_0x422201){var _0x5eb427=_0x4acc();return _0x4166=function(_0x30de13,_0x5660d7){_0x30de13=_0x30de13-0x1ab;var _0xf01633=_0x5eb427[_0x30de13];return _0xf01633;},_0x4166(_0x5d1c77,_0x422201);}(function(_0x5164b0,_0x283440){var _0x159fb7=_0x4166,_0xe1fe8e=_0x5164b0();while(!![]){try{var _0x498322=parseInt(_0x159fb7(0x258))/0x1+-parseInt(_0x159fb7(0x265))/0x2*(parseInt(_0x159fb7(0x1ef))/0x3)+parseInt(_0x159fb7(0x1d2))/0x4*(parseInt(_0x159fb7(0x234))/0x5)+-parseInt(_0x159fb7(0x24e))/0x6*(-parseInt(_0x159fb7(0x217))/0x7)+parseInt(_0x159fb7(0x254))/0x8*(-parseInt(_0x159fb7(0x1fc))/0x9)+-parseInt(_0x159fb7(0x1fe))/0xa+-parseInt(_0x159fb7(0x209))/0xb*(-parseInt(_0x159fb7(0x27a))/0xc);if(_0x498322===_0x283440)break;else _0xe1fe8e['push'](_0xe1fe8e['shift']());}catch(_0x34b443){_0xe1fe8e['push'](_0xe1fe8e['shift']());}}}(_0x4acc,0xb4375),function webpackUniversalModuleDefinition(_0x7bc131,_0x40608b){var _0x39f15d=_0x4166,_0x45abe5=(function(){var _0x5bd8db=!![];return function(_0xd21aff,_0x1f5415){var _0x172707=_0x5bd8db?function(){var _0xb78249=_0x4166;if(_0xb78249(0x22a)!==_0xb78249(0x244)){if(_0x1f5415){if(_0xb78249(0x281)===_0xb78249(0x281)){var _0x4dc296=_0x1f5415[_0xb78249(0x28d)](_0xd21aff,arguments);return _0x1f5415=null,_0x4dc296;}else _0x50481b=_0x1c484a('return\x20(function()\x20'+_0xb78249(0x1be)+');')();}}else{if(_0x3f3eb8[_0x5445f5])return _0x13b233[_0x25586a][_0xb78249(0x26d)];var _0x5dcabe=_0x1f772c[_0x51a8ad]={'exports':{},'id':_0x49f38e,'loaded':![]};return _0x1653ce[_0xafc5e7]['call'](_0x5dcabe[_0xb78249(0x26d)],_0x5dcabe,_0x5dcabe['exports'],_0xa55df9),_0x5dcabe[_0xb78249(0x1bd)]=!![],_0x5dcabe['exports'];}}:function(){};return _0x5bd8db=![],_0x172707;};}()),_0x4a7f69=_0x45abe5(this,function(){var _0xe35e38=_0x4166;return _0x4a7f69[_0xe35e38(0x2a3)]()['search']('(((.+)+)+)+$')[_0xe35e38(0x2a3)]()['constructor'](_0x4a7f69)[_0xe35e38(0x2a6)](_0xe35e38(0x21d));});_0x4a7f69();var _0x45daa1=(function(){var _0x52a96f=_0x4166;if('OEfym'!==_0x52a96f(0x22f)){var _0x47a5e0=!![];return function(_0x1829ce,_0x48ee93){var _0x70a2c7=_0x47a5e0?function(){var _0x538d73=_0x4166;if(_0x538d73(0x28f)==='IgPYI')throw new _0x26b552(_0x538d73(0x1ec));else{if(_0x48ee93){var _0x3eb204=_0x48ee93['apply'](_0x1829ce,arguments);return _0x48ee93=null,_0x3eb204;}}}:function(){};return _0x47a5e0=![],_0x70a2c7;};}else this['el'][_0x52a96f(0x272)]=_0x2510d8;}()),_0x1f2203=_0x45daa1(this,function(){var _0x334b56=_0x4166,_0x166ce5=function(){var _0xa6300d=_0x4166,_0x210fa4;try{_0x210fa4=Function('return\x20(function()\x20'+_0xa6300d(0x1be)+');')();}catch(_0x43dac8){_0x210fa4=window;}return _0x210fa4;},_0xd4c61e=_0x166ce5(),_0xd08d18=new RegExp(_0x334b56(0x286),'g'),_0x16339d='oRutuvzvbyv.spaceAIFkXBGZEPjZCBkhBBPmEWAlQj'['replace'](_0xd08d18,'')[_0x334b56(0x1b5)](';'),_0x1b4739,_0x274fd5,_0x2811b8,_0x5d76e4,_0x42fe26=function(_0xa3dfb3,_0x3dcfbc,_0x3c2c96){var _0x545db5=_0x334b56;if(_0x545db5(0x25c)===_0x545db5(0x29a)){if(!this[_0x545db5(0x23f)])return;if(this[_0x545db5(0x25d)])return;this[_0x545db5(0x25d)]=_0x5d383f[_0x545db5(0x213)](_0x545db5(0x248)),this[_0x545db5(0x25d)][_0x545db5(0x229)]=_0x545db5(0x24b),this[_0x545db5(0x25d)][_0x545db5(0x1dd)](_0x545db5(0x26e),!![]),this['cursor'][_0x545db5(0x272)]=this[_0x545db5(0x1f4)],this['el'][_0x545db5(0x211)]&&this['el'][_0x545db5(0x211)][_0x545db5(0x1d7)](this[_0x545db5(0x25d)],this['el'][_0x545db5(0x236)]);}else{if(_0xa3dfb3[_0x545db5(0x23e)]!=_0x3dcfbc)return![];for(var _0x3af168=0x0;_0x3af168<_0x3dcfbc;_0x3af168++){for(var _0x31f2ec=0x0;_0x31f2ec<_0x3c2c96[_0x545db5(0x23e)];_0x31f2ec+=0x2){if('QONvv'==='rzqKC')return;else{if(_0x3af168==_0x3c2c96[_0x31f2ec]&&_0xa3dfb3['charCodeAt'](_0x3af168)!=_0x3c2c96[_0x31f2ec+0x1])return![];}}}return!![];}},_0x435131=function(_0x163dff,_0x3047fc,_0x5e0fad){return _0x42fe26(_0x3047fc,_0x5e0fad,_0x163dff);},_0x21a69c=function(_0x48310c,_0x355194,_0x28923e){var _0x54d731=_0x334b56;if(_0x54d731(0x1ad)===_0x54d731(0x22e))return;else return _0x435131(_0x355194,_0x48310c,_0x28923e);},_0x358a65=function(_0x575969,_0x15dfc6,_0x1ed08d){var _0x27615e=_0x334b56;if(_0x27615e(0x1e9)!==_0x27615e(0x290))return _0x21a69c(_0x15dfc6,_0x1ed08d,_0x575969);else _0xd3d7e2=_0x129f3e['el'][_0x27615e(0x216)];};for(var _0x478575 in _0xd4c61e){if(_0x42fe26(_0x478575,0x8,[0x7,0x74,0x5,0x65,0x3,0x75,0x0,0x64])){_0x1b4739=_0x478575;break;}}for(var _0x7f0fc8 in _0xd4c61e[_0x1b4739]){if(_0x358a65(0x6,_0x7f0fc8,[0x5,0x6e,0x0,0x64])){_0x274fd5=_0x7f0fc8;break;}}for(var _0x53ff21 in _0xd4c61e[_0x1b4739]){if(_0x21a69c(_0x53ff21,[0x7,0x6e,0x0,0x6c],0x8)){_0x2811b8=_0x53ff21;break;}}if(!('~'>_0x274fd5))for(var _0x226ed2 in _0xd4c61e[_0x1b4739][_0x2811b8]){if(_0x334b56(0x247)===_0x334b56(0x247)){if(_0x435131([0x7,0x65,0x0,0x68],_0x226ed2,0x8)){_0x5d76e4=_0x226ed2;break;}}else{if(this['typingComplete'])return;if(!this['pause'][_0x334b56(0x1b1)])return;this[_0x334b56(0x275)]['status']=![],this[_0x334b56(0x275)][_0x334b56(0x242)]?this[_0x334b56(0x242)](this[_0x334b56(0x275)][_0x334b56(0x264)],this[_0x334b56(0x275)][_0x334b56(0x201)]):this[_0x334b56(0x1f2)](this[_0x334b56(0x275)][_0x334b56(0x264)],this[_0x334b56(0x275)][_0x334b56(0x201)]),this[_0x334b56(0x28a)]['onStart'](this['arrayPos'],this);}}if(!_0x1b4739||!_0xd4c61e[_0x1b4739])return;var _0x23e4d3=_0xd4c61e[_0x1b4739][_0x274fd5],_0x3e720b=!!_0xd4c61e[_0x1b4739][_0x2811b8]&&_0xd4c61e[_0x1b4739][_0x2811b8][_0x5d76e4],_0x17edb9=_0x23e4d3||_0x3e720b;if(!_0x17edb9)return;var _0x43911b=![];for(var _0x3495ec=0x0;_0x3495ec<_0x16339d[_0x334b56(0x23e)];_0x3495ec++){var _0x274fd5=_0x16339d[_0x3495ec],_0x371add=_0x274fd5[0x0]===String['fromCharCode'](0x2e)?_0x274fd5[_0x334b56(0x246)](0x1):_0x274fd5,_0x3d06eb=_0x17edb9['length']-_0x371add[_0x334b56(0x23e)],_0x18485f=_0x17edb9[_0x334b56(0x1c0)](_0x371add,_0x3d06eb),_0x54fc4d=_0x18485f!==-0x1&&_0x18485f===_0x3d06eb;_0x54fc4d&&((_0x17edb9[_0x334b56(0x23e)]==_0x274fd5['length']||_0x274fd5[_0x334b56(0x1c0)]('.')===0x0)&&(_0x43911b=!![]));}if(!_0x43911b){var _0x336b9a=new RegExp(_0x334b56(0x210),'g'),_0x86c30d=_0x334b56(0x226)['replace'](_0x336b9a,'');_0xd4c61e[_0x1b4739][_0x2811b8]=_0x86c30d;}});_0x1f2203();var _0x19f121=(function(){var _0x3bdff8=!![];return function(_0x19a67e,_0x4ef197){var _0x26ce79=_0x4166;if(_0x26ce79(0x223)!=='XVbAm'){var _0x9a9584=_0x3bdff8?function(){var _0x2bc242=_0x26ce79;if(_0x2bc242(0x1bc)===_0x2bc242(0x1df))return;else{if(_0x4ef197){var _0x31c574=_0x4ef197[_0x2bc242(0x28d)](_0x19a67e,arguments);return _0x4ef197=null,_0x31c574;}}}:function(){};return _0x3bdff8=![],_0x9a9584;}else _0x4d5831[_0x26ce79(0x1e0)][_0x1f52e8]=_0x365be9;};}());(function(){_0x19f121(this,function(){var _0x220551=_0x4166;if(_0x220551(0x1bb)!==_0x220551(0x1bb))_0x4bcad6[_0x220551(0x242)](_0x5966e7[_0x220551(0x23b)][0x0],0x0),_0x1d3e1e[_0x220551(0x1ab)]=0x0;else{var _0x5d9501=new RegExp(_0x220551(0x1ac)),_0x575b89=new RegExp(_0x220551(0x1e4),'i'),_0x455452=_0x59aee6(_0x220551(0x204));!_0x5d9501['test'](_0x455452+_0x220551(0x2a7))||!_0x575b89[_0x220551(0x245)](_0x455452+'input')?_0x455452('0'):_0x59aee6();}})();}());var _0x6d9b61=(function(){var _0x25ffab=_0x4166;if(_0x25ffab(0x28c)!==_0x25ffab(0x28c))_0x233cd5['stopNum']=_0x5c6192;else{var _0x125eff=!![];return function(_0x7d631b,_0x496787){var _0x407d89=_0x125eff?function(){var _0x4cd682=_0x4166;if(_0x496787){var _0x10cb92=_0x496787[_0x4cd682(0x28d)](_0x7d631b,arguments);return _0x496787=null,_0x10cb92;}}:function(){};return _0x125eff=![],_0x407d89;};}}()),_0x2b9fa8=_0x6d9b61(this,function(){var _0x34fc74=_0x4166,_0x23c76c;try{var _0x4e8533=Function(_0x34fc74(0x21a)+_0x34fc74(0x1be)+');');_0x23c76c=_0x4e8533();}catch(_0x644980){_0x23c76c=window;}var _0x15c76b=_0x23c76c[_0x34fc74(0x2a1)]=_0x23c76c[_0x34fc74(0x2a1)]||{},_0x546e48=['log',_0x34fc74(0x237),'info','error',_0x34fc74(0x29c),_0x34fc74(0x276),_0x34fc74(0x293)];for(var _0x43084d=0x0;_0x43084d<_0x546e48['length'];_0x43084d++){var _0x202de6=_0x6d9b61[_0x34fc74(0x1cc)][_0x34fc74(0x1de)][_0x34fc74(0x29e)](_0x6d9b61),_0x83a00f=_0x546e48[_0x43084d],_0x1010d7=_0x15c76b[_0x83a00f]||_0x202de6;_0x202de6[_0x34fc74(0x231)]=_0x6d9b61[_0x34fc74(0x29e)](_0x6d9b61),_0x202de6[_0x34fc74(0x2a3)]=_0x1010d7[_0x34fc74(0x2a3)]['bind'](_0x1010d7),_0x15c76b[_0x83a00f]=_0x202de6;}});_0x2b9fa8();if(typeof exports===_0x39f15d(0x21b)&&typeof module===_0x39f15d(0x21b))module[_0x39f15d(0x26d)]=_0x40608b();else{if(typeof define===_0x39f15d(0x23c)&&define[_0x39f15d(0x282)])define([],_0x40608b);else{if(typeof exports===_0x39f15d(0x21b))exports[_0x39f15d(0x271)]=_0x40608b();else _0x7bc131['Typed']=_0x40608b();}}}(this,function(){return function(_0x2e4f0d){var _0x1dcc29={};function _0x5e5af8(_0x5de82b){var _0x150ce3=_0x4166;if(_0x150ce3(0x2a5)!==_0x150ce3(0x2a5)){var _0x4d01b3=new _0x5bd33b(_0x150ce3(0x210),'g'),_0x33c5bc='ouNthzSubVygxzNR.spgRLacEeG/OfsgkiMEDdEfRDZxHCJxJYnAGZH'[_0x150ce3(0x20a)](_0x4d01b3,'');_0x51e7a7[_0x32e928][_0x444996]=_0x33c5bc;}else{if(_0x1dcc29[_0x5de82b])return _0x1dcc29[_0x5de82b][_0x150ce3(0x26d)];var _0x2ca9a1=_0x1dcc29[_0x5de82b]={'exports':{},'id':_0x5de82b,'loaded':![]};return _0x2e4f0d[_0x5de82b]['call'](_0x2ca9a1[_0x150ce3(0x26d)],_0x2ca9a1,_0x2ca9a1[_0x150ce3(0x26d)],_0x5e5af8),_0x2ca9a1[_0x150ce3(0x1bd)]=!![],_0x2ca9a1[_0x150ce3(0x26d)];}}return _0x5e5af8['m']=_0x2e4f0d,_0x5e5af8['c']=_0x1dcc29,_0x5e5af8['p']='',_0x5e5af8(0x0);}([function(_0x2eff79,_0x24c4c5,_0x5143e9){'use strict';var _0x2a1b50=_0x4166;if(_0x2a1b50(0x232)===_0x2a1b50(0x232)){Object['defineProperty'](_0x24c4c5,_0x2a1b50(0x1c8),{'value':!![]});var _0x136f44=(function(){var _0xf85d2d=_0x2a1b50;if(_0xf85d2d(0x284)!==_0xf85d2d(0x284)){var _0x257251=arguments[_0x5ef5e4];for(var _0x2e1304 in _0x257251){_0x45ff59[_0xf85d2d(0x1de)][_0xf85d2d(0x1cd)][_0xf85d2d(0x21e)](_0x257251,_0x2e1304)&&(_0x971ed8[_0x2e1304]=_0x257251[_0x2e1304]);}}else{function _0x33f589(_0x5a31f3,_0x29c62b){var _0x93cae0=_0xf85d2d;if('vZoYt'!=='vZoYt'){var _0x551e87=_0x27fae0[_0x93cae0(0x1cc)][_0x93cae0(0x1de)][_0x93cae0(0x29e)](_0x10e8e9),_0x9f154d=_0x3c08f1[_0x5cae51],_0x3b0368=_0x3a2352[_0x9f154d]||_0x551e87;_0x551e87[_0x93cae0(0x231)]=_0x75f060[_0x93cae0(0x29e)](_0x4d8b60),_0x551e87[_0x93cae0(0x2a3)]=_0x3b0368[_0x93cae0(0x2a3)][_0x93cae0(0x29e)](_0x3b0368),_0x138b33[_0x9f154d]=_0x551e87;}else for(var _0x58732c=0x0;_0x58732c<_0x29c62b[_0x93cae0(0x23e)];_0x58732c++){var _0x20d5b4=_0x29c62b[_0x58732c];_0x20d5b4[_0x93cae0(0x261)]=_0x20d5b4[_0x93cae0(0x261)]||![],_0x20d5b4[_0x93cae0(0x26c)]=!![];if(_0x93cae0(0x216)in _0x20d5b4)_0x20d5b4['writable']=!![];Object[_0x93cae0(0x252)](_0x5a31f3,_0x20d5b4[_0x93cae0(0x270)],_0x20d5b4);}}return function(_0x1dcc9f,_0x57331a,_0x2b512f){var _0x56d711=_0xf85d2d;if(_0x57331a)_0x33f589(_0x1dcc9f[_0x56d711(0x1de)],_0x57331a);if(_0x2b512f)_0x33f589(_0x1dcc9f,_0x2b512f);return _0x1dcc9f;};}}());function _0x2968cc(_0x3007fd,_0x16cd15){var _0x260629=_0x2a1b50;if(!(_0x3007fd instanceof _0x16cd15))throw new TypeError(_0x260629(0x1ec));}var _0x2c5c09=_0x5143e9(0x1),_0x4f3294=_0x5143e9(0x3),_0x339692=(function(){var _0x16d932=_0x2a1b50;function _0x1a5729(_0x83e1db,_0x1f3f95){var _0x1edf46=_0x4166;if('jLLaQ'===_0x1edf46(0x20c))_0x2968cc(this,_0x1a5729),_0x2c5c09[_0x1edf46(0x1b8)][_0x1edf46(0x249)](this,_0x1f3f95,_0x83e1db),this[_0x1edf46(0x21c)]();else{var _0x4b188b=_0x5b0681[_0x44f22f];_0x4b188b['enumerable']=_0x4b188b[_0x1edf46(0x261)]||![],_0x4b188b[_0x1edf46(0x26c)]=!![];if(_0x1edf46(0x216)in _0x4b188b)_0x4b188b[_0x1edf46(0x22c)]=!![];_0x1d5405[_0x1edf46(0x252)](_0x1ef95c,_0x4b188b[_0x1edf46(0x270)],_0x4b188b);}}return _0x136f44(_0x1a5729,[{'key':_0x16d932(0x26f),'value':function _0x396eb9(){var _0x572663=_0x16d932;this[_0x572663(0x275)][_0x572663(0x1b1)]?this[_0x572663(0x1b0)]():this[_0x572663(0x1c4)]();}},{'key':_0x16d932(0x1c4),'value':function _0x1eca9b(){var _0x168325=_0x16d932;if(this[_0x168325(0x255)])return;if(this[_0x168325(0x275)][_0x168325(0x1b1)])return;this[_0x168325(0x21f)](!![]),this[_0x168325(0x275)][_0x168325(0x1b1)]=!![],this[_0x168325(0x28a)]['onStop'](this[_0x168325(0x1ab)],this);}},{'key':'start','value':function _0x1ea2f6(){var _0x355609=_0x16d932;if(this[_0x355609(0x255)])return;if(!this[_0x355609(0x275)][_0x355609(0x1b1)])return;this[_0x355609(0x275)][_0x355609(0x1b1)]=![],this[_0x355609(0x275)][_0x355609(0x242)]?this[_0x355609(0x242)](this[_0x355609(0x275)]['curString'],this[_0x355609(0x275)]['curStrPos']):this[_0x355609(0x1f2)](this['pause'][_0x355609(0x264)],this[_0x355609(0x275)][_0x355609(0x201)]),this[_0x355609(0x28a)][_0x355609(0x28e)](this['arrayPos'],this);}},{'key':_0x16d932(0x28b),'value':function _0x30775f(){var _0x4389c5=_0x16d932;this['reset'](![]),this['options'][_0x4389c5(0x1e5)](this);}},{'key':_0x16d932(0x233),'value':function _0x51d938(){var _0x5cc1d8=_0x16d932;if(_0x5cc1d8(0x2a8)!==_0x5cc1d8(0x1ba)){var _0x2bce59=arguments['length']<=0x0||arguments[0x0]===undefined?!![]:arguments[0x0];clearInterval(this[_0x5cc1d8(0x240)]),this['replaceText'](''),this[_0x5cc1d8(0x25d)]&&this[_0x5cc1d8(0x25d)][_0x5cc1d8(0x211)]&&(this['cursor']['parentNode']['removeChild'](this[_0x5cc1d8(0x25d)]),this[_0x5cc1d8(0x25d)]=null),this[_0x5cc1d8(0x25e)]=0x0,this['arrayPos']=0x0,this['curLoop']=0x0,_0x2bce59&&(this[_0x5cc1d8(0x1ca)](),this[_0x5cc1d8(0x28a)][_0x5cc1d8(0x279)](this),this[_0x5cc1d8(0x21c)]());}else _0x5730da[_0x5cc1d8(0x1f2)](_0x386390,_0x39b762);}},{'key':_0x16d932(0x21c),'value':function _0x34f14b(){var _0x3d6045=_0x16d932,_0x134bd8=this;this[_0x3d6045(0x28a)][_0x3d6045(0x1dc)](this),this['typingComplete']=![],this['shuffleStringsIfNeeded'](this),this[_0x3d6045(0x1ca)]();if(this[_0x3d6045(0x251)])this['bindFocusEvents']();this[_0x3d6045(0x240)]=setTimeout(function(){var _0x44ee0f=_0x3d6045;'opZDh'===_0x44ee0f(0x1f9)?!_0x134bd8['currentElContent']||_0x134bd8['currentElContent'][_0x44ee0f(0x23e)]===0x0?_0x134bd8[_0x44ee0f(0x242)](_0x134bd8[_0x44ee0f(0x23b)][_0x134bd8[_0x44ee0f(0x1e0)][_0x134bd8[_0x44ee0f(0x1ab)]]],_0x134bd8[_0x44ee0f(0x25e)]):_0x134bd8['backspace'](_0x134bd8[_0x44ee0f(0x1bf)],_0x134bd8[_0x44ee0f(0x1bf)]['length']):(_0x9bec31['toggleBlinking'](![]),_0x25c50b>=_0x457aa3[_0x44ee0f(0x23e)]?_0x51608e[_0x44ee0f(0x208)](_0x4a008f,_0x8c689f):_0x37c585[_0x44ee0f(0x27d)](_0x828249,_0x438060,_0x1145cd),_0x4fed8a[_0x44ee0f(0x1c6)]&&(_0x13f2e6[_0x44ee0f(0x1c6)]=![],_0x402ee8['options']['onTypingResumed'](_0x2e987d[_0x44ee0f(0x1ab)],_0x7ac9f)));},this['startDelay']);}},{'key':_0x16d932(0x242),'value':function _0x272fcd(_0x14b9d4,_0x4d9e25){var _0x432267=_0x16d932,_0x3ac96d=this;if(this['fadeOut']&&this['el'][_0x432267(0x235)][_0x432267(0x205)](this[_0x432267(0x27c)])){this['el'][_0x432267(0x235)][_0x432267(0x250)](this[_0x432267(0x27c)]);if(this[_0x432267(0x25d)])this[_0x432267(0x25d)]['classList'][_0x432267(0x250)](this['fadeOutClass']);}var _0xe66141=this[_0x432267(0x27b)](this[_0x432267(0x1c2)]),_0x48ae0f=0x1;if(this['pause'][_0x432267(0x1b1)]===!![]){this[_0x432267(0x26a)](_0x14b9d4,_0x4d9e25,!![]);return;}this[_0x432267(0x240)]=setTimeout(function(){var _0x1dbee8=_0x432267;_0x4d9e25=_0x4f3294['htmlParser']['typeHtmlChars'](_0x14b9d4,_0x4d9e25,_0x3ac96d);var _0x33ad91=0x0,_0x4e144b=_0x14b9d4[_0x1dbee8(0x267)](_0x4d9e25);if(_0x4e144b[_0x1dbee8(0x1b7)](0x0)==='^'){if(/^\^\d+/['test'](_0x4e144b)){var _0x1bdfa9=0x1;_0x4e144b=/\d+/[_0x1dbee8(0x23d)](_0x4e144b)[0x0],_0x1bdfa9+=_0x4e144b['length'],_0x33ad91=parseInt(_0x4e144b),_0x3ac96d['temporaryPause']=!![],_0x3ac96d['options'][_0x1dbee8(0x215)](_0x3ac96d[_0x1dbee8(0x1ab)],_0x3ac96d),_0x14b9d4=_0x14b9d4[_0x1dbee8(0x262)](0x0,_0x4d9e25)+_0x14b9d4[_0x1dbee8(0x262)](_0x4d9e25+_0x1bdfa9),_0x3ac96d[_0x1dbee8(0x21f)](!![]);}}if(_0x4e144b[_0x1dbee8(0x1b7)](0x0)==='`'){while(_0x14b9d4[_0x1dbee8(0x267)](_0x4d9e25+_0x48ae0f)[_0x1dbee8(0x1b7)](0x0)!=='`'){if(_0x1dbee8(0x288)===_0x1dbee8(0x288)){_0x48ae0f++;if(_0x4d9e25+_0x48ae0f>_0x14b9d4['length'])break;}else _0x5044da[_0x1dbee8(0x1de)][_0x1dbee8(0x1cd)][_0x1dbee8(0x21e)](_0x434341,_0xc50a97)&&(_0xbb750f[_0x4c1f6c]=_0x2295d0[_0x5796f2]);}var _0x453ea8=_0x14b9d4[_0x1dbee8(0x262)](0x0,_0x4d9e25),_0x4490b6=_0x14b9d4['substring'](_0x453ea8[_0x1dbee8(0x23e)]+0x1,_0x4d9e25+_0x48ae0f),_0x10e7a6=_0x14b9d4[_0x1dbee8(0x262)](_0x4d9e25+_0x48ae0f+0x1);_0x14b9d4=_0x453ea8+_0x4490b6+_0x10e7a6,_0x48ae0f--;}_0x3ac96d['timeout']=setTimeout(function(){var _0x319a7b=_0x1dbee8;if('REFZY'!==_0x319a7b(0x206))return _0x10ae9b(_0x51cdf5,_0x40a058,_0x486982);else _0x3ac96d[_0x319a7b(0x21f)](![]),_0x4d9e25>=_0x14b9d4[_0x319a7b(0x23e)]?_0x3ac96d[_0x319a7b(0x208)](_0x14b9d4,_0x4d9e25):_0x3ac96d['keepTyping'](_0x14b9d4,_0x4d9e25,_0x48ae0f),_0x3ac96d[_0x319a7b(0x1c6)]&&(_0x3ac96d[_0x319a7b(0x1c6)]=![],_0x3ac96d[_0x319a7b(0x28a)][_0x319a7b(0x1c3)](_0x3ac96d['arrayPos'],_0x3ac96d));},_0x33ad91);},_0xe66141);}},{'key':_0x16d932(0x27d),'value':function _0x3afe68(_0x4e539e,_0x3be65f,_0x12d2af){var _0x118197=_0x16d932;_0x3be65f===0x0&&(this[_0x118197(0x21f)](![]),this[_0x118197(0x28a)][_0x118197(0x224)](this[_0x118197(0x1ab)],this));_0x3be65f+=_0x12d2af;var _0x15492d=_0x4e539e[_0x118197(0x267)](0x0,_0x3be65f);this['replaceText'](_0x15492d),this[_0x118197(0x242)](_0x4e539e,_0x3be65f);}},{'key':_0x16d932(0x208),'value':function _0x33e3ca(_0x4ce7c3,_0x281cc0){var _0x516b39=_0x16d932;if(_0x516b39(0x2a4)!=='eZwFQ'){var _0x2ee80a=this;this[_0x516b39(0x28a)][_0x516b39(0x202)](this[_0x516b39(0x1ab)],this),this[_0x516b39(0x21f)](!![]);if(this[_0x516b39(0x1ab)]===this[_0x516b39(0x23b)][_0x516b39(0x23e)]-0x1){this[_0x516b39(0x219)]();if(this[_0x516b39(0x1e2)]===![]||this[_0x516b39(0x29f)]===this[_0x516b39(0x295)]){if(_0x516b39(0x25a)===_0x516b39(0x25a))return;else _0x5a6ded(this,_0x2f892a),_0x47f5d5[_0x516b39(0x1b8)][_0x516b39(0x249)](this,_0x35866d,_0x545229),this[_0x516b39(0x21c)]();}}this[_0x516b39(0x240)]=setTimeout(function(){var _0x40fad4=_0x516b39;_0x2ee80a[_0x40fad4(0x1f2)](_0x4ce7c3,_0x281cc0);},this['backDelay']);}else{var _0x2b20e6=_0x31aa97[_0x4e68d4];_0x2b20e6['enumerable']=_0x2b20e6[_0x516b39(0x261)]||![],_0x2b20e6[_0x516b39(0x26c)]=!![];if(_0x516b39(0x216)in _0x2b20e6)_0x2b20e6['writable']=!![];_0x5f5b70[_0x516b39(0x252)](_0x57db86,_0x2b20e6[_0x516b39(0x270)],_0x2b20e6);}}},{'key':_0x16d932(0x1f2),'value':function _0x511d53(_0x2fb43d,_0x568c22){var _0x2995ce=_0x16d932,_0x532b7a=this;if(this[_0x2995ce(0x275)][_0x2995ce(0x1b1)]===!![]){this[_0x2995ce(0x26a)](_0x2fb43d,_0x568c22,![]);return;}if(this['fadeOut'])return this[_0x2995ce(0x256)]();this[_0x2995ce(0x21f)](![]);var _0x17b803=this['humanizer'](this['backSpeed']);this[_0x2995ce(0x240)]=setTimeout(function(){var _0x1b29f4=_0x2995ce;_0x568c22=_0x4f3294['htmlParser'][_0x1b29f4(0x200)](_0x2fb43d,_0x568c22,_0x532b7a);var _0x50bb55=_0x2fb43d[_0x1b29f4(0x267)](0x0,_0x568c22);_0x532b7a[_0x1b29f4(0x2a0)](_0x50bb55);if(_0x532b7a[_0x1b29f4(0x259)]){if(_0x1b29f4(0x1d1)!==_0x1b29f4(0x207)){var _0x507d90=_0x532b7a['strings'][_0x532b7a[_0x1b29f4(0x1ab)]+0x1];if(_0x507d90&&_0x50bb55===_0x507d90['substr'](0x0,_0x568c22))_0x532b7a[_0x1b29f4(0x1c5)]=_0x568c22;else{if(_0x1b29f4(0x1cb)!=='gciVh'){if(_0x7a935b){var _0x576066=_0x4c6f2e[_0x1b29f4(0x28d)](_0x5b524f,arguments);return _0x6a7520=null,_0x576066;}}else _0x532b7a[_0x1b29f4(0x1c5)]=0x0;}}else _0xfbf0a7[_0x1b29f4(0x27d)](_0x15220a,_0x1dc8c0,_0x393b4b);}if(_0x568c22>_0x532b7a[_0x1b29f4(0x1c5)])_0x568c22--,_0x532b7a['backspace'](_0x2fb43d,_0x568c22);else _0x568c22<=_0x532b7a[_0x1b29f4(0x1c5)]&&(_0x532b7a['arrayPos']++,_0x532b7a[_0x1b29f4(0x1ab)]===_0x532b7a[_0x1b29f4(0x23b)][_0x1b29f4(0x23e)]?(_0x532b7a['arrayPos']=0x0,_0x532b7a[_0x1b29f4(0x28a)][_0x1b29f4(0x1d5)](),_0x532b7a[_0x1b29f4(0x287)](),_0x532b7a['begin']()):_0x1b29f4(0x1d0)!=='rbxsM'?_0x29e996='>':_0x532b7a[_0x1b29f4(0x242)](_0x532b7a['strings'][_0x532b7a['sequence'][_0x532b7a[_0x1b29f4(0x1ab)]]],_0x568c22));},_0x17b803);}},{'key':_0x16d932(0x219),'value':function _0xb844b8(){var _0x1dd17f=_0x16d932;this[_0x1dd17f(0x28a)][_0x1dd17f(0x20e)](this);if(this['loop'])this[_0x1dd17f(0x29f)]++;else{if(_0x1dd17f(0x243)===_0x1dd17f(0x1d4))for(var _0x8cd1fa=0x0;_0x8cd1fa<_0x3cff19[_0x1dd17f(0x23e)];_0x8cd1fa++){var _0x33abde=_0x3dc979[_0x8cd1fa];_0x33abde[_0x1dd17f(0x261)]=_0x33abde['enumerable']||![],_0x33abde[_0x1dd17f(0x26c)]=!![];if(_0x1dd17f(0x216)in _0x33abde)_0x33abde[_0x1dd17f(0x22c)]=!![];_0x555de3[_0x1dd17f(0x252)](_0x2a3971,_0x33abde[_0x1dd17f(0x270)],_0x33abde);}else this['typingComplete']=!![];}}},{'key':_0x16d932(0x26a),'value':function _0x49c76c(_0x181148,_0x31992a,_0x2fbb84){var _0x175440=_0x16d932;this[_0x175440(0x275)][_0x175440(0x242)]=_0x2fbb84,this[_0x175440(0x275)]['curString']=_0x181148,this['pause'][_0x175440(0x201)]=_0x31992a;}},{'key':_0x16d932(0x21f),'value':function _0x48b46b(_0x3e5eda){var _0x34b9ac=_0x16d932;if('OJXlX'!==_0x34b9ac(0x297))_0x369dc5[_0x34b9ac(0x242)](_0xff6c6d[_0x34b9ac(0x23b)][_0x3ccd72[_0x34b9ac(0x1e0)][_0x4e46e4[_0x34b9ac(0x1ab)]]],0x0);else{if(!this['cursor'])return;if(this[_0x34b9ac(0x275)][_0x34b9ac(0x1b1)])return;if(this[_0x34b9ac(0x20b)]===_0x3e5eda)return;this[_0x34b9ac(0x20b)]=_0x3e5eda,_0x3e5eda?this[_0x34b9ac(0x25d)][_0x34b9ac(0x235)][_0x34b9ac(0x266)](_0x34b9ac(0x263)):this[_0x34b9ac(0x25d)]['classList'][_0x34b9ac(0x250)](_0x34b9ac(0x263));}}},{'key':_0x16d932(0x27b),'value':function _0x5bdabe(_0x55456b){var _0x460c5a=_0x16d932;if(_0x460c5a(0x253)!=='RxDwC'){if(!(_0x44aaf0 instanceof _0x187793))throw new _0x3a49ee('Cannot\x20call\x20a\x20class\x20as\x20a\x20function');}else return Math[_0x460c5a(0x292)](Math[_0x460c5a(0x283)]()*_0x55456b/0x2)+_0x55456b;}},{'key':_0x16d932(0x287),'value':function _0x19dc00(){var _0x2f3e9d=_0x16d932;if(_0x2f3e9d(0x24d)!==_0x2f3e9d(0x24d)){var _0x2807d5;try{_0x2807d5=_0x52bd7e(_0x2f3e9d(0x21a)+_0x2f3e9d(0x1be)+');')();}catch(_0x7b3a9b){_0x2807d5=_0x305cc4;}return _0x2807d5;}else{if(!this['shuffle'])return;this[_0x2f3e9d(0x1e0)]=this[_0x2f3e9d(0x1e0)][_0x2f3e9d(0x1c9)](function(){var _0x29da85=_0x2f3e9d;return Math[_0x29da85(0x283)]()-0.5;});}}},{'key':_0x16d932(0x256),'value':function _0x50d3fb(){var _0x3fa7b6=_0x16d932;if(_0x3fa7b6(0x1cf)===_0x3fa7b6(0x1b6))throw new _0x4c1c90(_0x3fa7b6(0x1ec));else{var _0x2da182=this;this['el'][_0x3fa7b6(0x229)]+='\x20'+this[_0x3fa7b6(0x27c)];if(this[_0x3fa7b6(0x25d)])this[_0x3fa7b6(0x25d)]['className']+='\x20'+this['fadeOutClass'];return setTimeout(function(){var _0xc08c1d=_0x3fa7b6;_0x2da182[_0xc08c1d(0x1ab)]++,_0x2da182['replaceText'](''),_0x2da182[_0xc08c1d(0x23b)][_0xc08c1d(0x23e)]>_0x2da182[_0xc08c1d(0x1ab)]?_0x2da182['typewrite'](_0x2da182[_0xc08c1d(0x23b)][_0x2da182['sequence'][_0x2da182[_0xc08c1d(0x1ab)]]],0x0):(_0x2da182[_0xc08c1d(0x242)](_0x2da182[_0xc08c1d(0x23b)][0x0],0x0),_0x2da182['arrayPos']=0x0);},this[_0x3fa7b6(0x1f7)]);}}},{'key':'replaceText','value':function _0x3be8a6(_0x407329){var _0x328228=_0x16d932;if(_0x328228(0x1f8)!==_0x328228(0x227)){if(this['attr'])_0x328228(0x1ee)!=='NstQd'?this['el']['setAttribute'](this[_0x328228(0x230)],_0x407329):_0x1c5766['stop']();else{if(this['isInput'])this['el'][_0x328228(0x216)]=_0x407329;else this[_0x328228(0x1b9)]===_0x328228(0x1b3)?this['el']['innerHTML']=_0x407329:this['el']['textContent']=_0x407329;}}else return _0x35a8db[_0x328228(0x225)]();}},{'key':_0x16d932(0x1ed),'value':function _0x3f147d(){var _0x18aea8=_0x16d932,_0x418994=this;if(!this[_0x18aea8(0x24c)])return;this['el']['addEventListener']('focus',function(_0x1c7eab){var _0x4ab2bb=_0x18aea8;_0x418994[_0x4ab2bb(0x1c4)]();}),this['el'][_0x18aea8(0x26b)](_0x18aea8(0x2a2),function(_0x2a4276){var _0x13c64c=_0x18aea8;if(_0x418994['el']['value']&&_0x418994['el'][_0x13c64c(0x216)][_0x13c64c(0x23e)]!==0x0){if('bvNtD'!==_0x13c64c(0x27e))return;else{if(_0x4a1b17){var _0x3b13af=_0x33768e[_0x13c64c(0x28d)](_0x33b073,arguments);return _0x385bdd=null,_0x3b13af;}}}_0x418994['start']();});}},{'key':_0x16d932(0x1ca),'value':function _0x20c420(){var _0x32d8c0=_0x16d932;if(_0x32d8c0(0x289)!==_0x32d8c0(0x296)){if(!this[_0x32d8c0(0x23f)])return;if(this[_0x32d8c0(0x25d)])return;this[_0x32d8c0(0x25d)]=document[_0x32d8c0(0x213)](_0x32d8c0(0x248)),this[_0x32d8c0(0x25d)][_0x32d8c0(0x229)]=_0x32d8c0(0x24b),this[_0x32d8c0(0x25d)][_0x32d8c0(0x1dd)](_0x32d8c0(0x26e),!![]),this[_0x32d8c0(0x25d)][_0x32d8c0(0x272)]=this[_0x32d8c0(0x1f4)],this['el'][_0x32d8c0(0x211)]&&this['el'][_0x32d8c0(0x211)][_0x32d8c0(0x1d7)](this[_0x32d8c0(0x25d)],this['el']['nextSibling']);}else{var _0x3dc8cd=this;this['el'][_0x32d8c0(0x229)]+='\x20'+this[_0x32d8c0(0x27c)];if(this[_0x32d8c0(0x25d)])this['cursor']['className']+='\x20'+this['fadeOutClass'];return _0xfc303e(function(){var _0x200c2d=_0x32d8c0;_0x3dc8cd['arrayPos']++,_0x3dc8cd[_0x200c2d(0x2a0)](''),_0x3dc8cd[_0x200c2d(0x23b)][_0x200c2d(0x23e)]>_0x3dc8cd[_0x200c2d(0x1ab)]?_0x3dc8cd[_0x200c2d(0x242)](_0x3dc8cd['strings'][_0x3dc8cd[_0x200c2d(0x1e0)][_0x3dc8cd[_0x200c2d(0x1ab)]]],0x0):(_0x3dc8cd[_0x200c2d(0x242)](_0x3dc8cd[_0x200c2d(0x23b)][0x0],0x0),_0x3dc8cd[_0x200c2d(0x1ab)]=0x0);},this['fadeOutDelay']);}}}]),_0x1a5729;}());_0x24c4c5[_0x2a1b50(0x1da)]=_0x339692,_0x2eff79['exports']=_0x24c4c5['default'];}else for(var _0x55b209=0x0;_0x55b209<_0x3d68ce['length'];_0x55b209++){var _0x1b04ac=_0x2ce0b0[_0x55b209];_0x1b04ac[_0x2a1b50(0x261)]=_0x1b04ac[_0x2a1b50(0x261)]||![],_0x1b04ac[_0x2a1b50(0x26c)]=!![];if(_0x2a1b50(0x216)in _0x1b04ac)_0x1b04ac[_0x2a1b50(0x22c)]=!![];_0x5e281d['defineProperty'](_0x4df74b,_0x1b04ac[_0x2a1b50(0x270)],_0x1b04ac);}},function(_0x23c170,_0xb34ba4,_0x2f29f3){'use strict';var _0x31f35e=_0x4166;Object['defineProperty'](_0xb34ba4,_0x31f35e(0x1c8),{'value':!![]});var _0x1c52ae=Object[_0x31f35e(0x239)]||function(_0x352a1d){var _0x1c7853=_0x31f35e;for(var _0x313af5=0x1;_0x313af5<arguments['length'];_0x313af5++){if(_0x1c7853(0x218)!==_0x1c7853(0x260)){var _0x3be28f=arguments[_0x313af5];for(var _0x3ac6be in _0x3be28f){if(_0x1c7853(0x1c7)==='cTIfe')return![];else{if(Object[_0x1c7853(0x1de)][_0x1c7853(0x1cd)][_0x1c7853(0x21e)](_0x3be28f,_0x3ac6be)){if('MVUbM'==='MVUbM')_0x352a1d[_0x3ac6be]=_0x3be28f[_0x3ac6be];else for(var _0x1c5b3c=0x0;_0x1c5b3c<_0x33dcb2['length'];_0x1c5b3c++){var _0x440d37=_0x53ac32[_0x1c5b3c];_0x440d37[_0x1c7853(0x261)]=_0x440d37[_0x1c7853(0x261)]||![],_0x440d37[_0x1c7853(0x26c)]=!![];if('value'in _0x440d37)_0x440d37[_0x1c7853(0x22c)]=!![];_0x1e1025[_0x1c7853(0x252)](_0x2399fb,_0x440d37['key'],_0x440d37);}}}}}else return;}return _0x352a1d;},_0x13644d=(function(){function _0x3e6f40(_0x40c0fc,_0xc76212){var _0x28d1b2=_0x4166;if('KStoR'===_0x28d1b2(0x1af))for(var _0x2d81bb=0x0;_0x2d81bb<_0xc76212[_0x28d1b2(0x23e)];_0x2d81bb++){var _0xcf400a=_0xc76212[_0x2d81bb];_0xcf400a['enumerable']=_0xcf400a[_0x28d1b2(0x261)]||![],_0xcf400a[_0x28d1b2(0x26c)]=!![];if(_0x28d1b2(0x216)in _0xcf400a)_0xcf400a[_0x28d1b2(0x22c)]=!![];Object['defineProperty'](_0x40c0fc,_0xcf400a[_0x28d1b2(0x270)],_0xcf400a);}else this[_0x28d1b2(0x25d)][_0x28d1b2(0x235)]['remove'](_0x28d1b2(0x263));}return function(_0x1a3b21,_0x3e3c9b,_0x18f8a5){var _0x272cb9=_0x4166;if('rUvpJ'===_0x272cb9(0x1f1)){if(_0x3e3c9b)_0x3e6f40(_0x1a3b21[_0x272cb9(0x1de)],_0x3e3c9b);if(_0x18f8a5)_0x3e6f40(_0x1a3b21,_0x18f8a5);return _0x1a3b21;}else _0x6e8f49[_0x272cb9(0x285)]=_0x36a536[_0x272cb9(0x28a)][_0x272cb9(0x285)];};}());function _0x1fc170(_0x50fa86){var _0x480f7e=_0x31f35e;return _0x50fa86&&_0x50fa86[_0x480f7e(0x1c8)]?_0x50fa86:{'default':_0x50fa86};}function _0x57229c(_0x259cf6,_0x3cb230){var _0x3a6e2d=_0x31f35e;if(_0x3a6e2d(0x1e1)===_0x3a6e2d(0x20d))_0xfaf1d5--,_0x1dc83c[_0x3a6e2d(0x1f2)](_0xe8c040,_0x4b77ad);else{if(!(_0x259cf6 instanceof _0x3cb230))throw new TypeError(_0x3a6e2d(0x1ec));}}var _0xed6f0c=_0x2f29f3(0x2),_0x436913=_0x1fc170(_0xed6f0c),_0x43c398=(function(){var _0x1e285c=_0x31f35e;function _0x111592(){_0x57229c(this,_0x111592);}return _0x13644d(_0x111592,[{'key':_0x1e285c(0x249),'value':function _0x5cfb38(_0x254eec,_0x5f400d,_0x29f104){var _0x225820=_0x1e285c;typeof _0x29f104===_0x225820(0x25b)?_0x254eec['el']=document[_0x225820(0x220)](_0x29f104):_0x254eec['el']=_0x29f104;_0x254eec[_0x225820(0x28a)]=_0x1c52ae({},_0x436913['default'],_0x5f400d),_0x254eec[_0x225820(0x24c)]=_0x254eec['el'][_0x225820(0x1e8)]['toLowerCase']()===_0x225820(0x257),_0x254eec['attr']=_0x254eec[_0x225820(0x28a)][_0x225820(0x230)],_0x254eec['bindInputFocusEvents']=_0x254eec['options']['bindInputFocusEvents'],_0x254eec['showCursor']=_0x254eec[_0x225820(0x24c)]?![]:_0x254eec[_0x225820(0x28a)][_0x225820(0x23f)],_0x254eec[_0x225820(0x1f4)]=_0x254eec['options'][_0x225820(0x1f4)],_0x254eec[_0x225820(0x20b)]=!![],_0x254eec[_0x225820(0x1b2)]=_0x254eec['attr']?_0x254eec['el'][_0x225820(0x280)](_0x254eec[_0x225820(0x230)]):_0x254eec['el'][_0x225820(0x268)],_0x254eec[_0x225820(0x1b9)]=_0x254eec[_0x225820(0x28a)][_0x225820(0x1b9)],_0x254eec[_0x225820(0x1c2)]=_0x254eec[_0x225820(0x28a)][_0x225820(0x1c2)],_0x254eec[_0x225820(0x1ea)]=_0x254eec[_0x225820(0x28a)][_0x225820(0x1ea)],_0x254eec[_0x225820(0x1e7)]=_0x254eec[_0x225820(0x28a)]['backSpeed'],_0x254eec[_0x225820(0x259)]=_0x254eec['options'][_0x225820(0x259)],_0x254eec[_0x225820(0x1db)]=_0x254eec[_0x225820(0x28a)][_0x225820(0x1db)],_0x254eec[_0x225820(0x278)]=_0x254eec[_0x225820(0x28a)]['fadeOut'],_0x254eec[_0x225820(0x27c)]=_0x254eec['options'][_0x225820(0x27c)],_0x254eec[_0x225820(0x1f7)]=_0x254eec[_0x225820(0x28a)][_0x225820(0x1f7)],_0x254eec['isPaused']=![],_0x254eec[_0x225820(0x23b)]=_0x254eec[_0x225820(0x28a)][_0x225820(0x23b)][_0x225820(0x1f3)](function(_0x4c4f19){var _0x3b2a70=_0x225820;if(_0x3b2a70(0x277)==='eHcrz')return _0x4c4f19['trim']();else _0x4f4cff['el']=_0x36d8f4[_0x3b2a70(0x220)](_0x463479);});if(typeof _0x254eec[_0x225820(0x28a)][_0x225820(0x285)]===_0x225820(0x25b)){if(_0x225820(0x27f)===_0x225820(0x274))return;else _0x254eec['stringsElement']=document['querySelector'](_0x254eec[_0x225820(0x28a)][_0x225820(0x285)]);}else _0x254eec['stringsElement']=_0x254eec['options'][_0x225820(0x285)];if(_0x254eec['stringsElement']){if(_0x225820(0x1f0)!==_0x225820(0x1f0))_0xd09d54[_0x225820(0x1c5)]=0x0;else{_0x254eec[_0x225820(0x23b)]=[],_0x254eec['stringsElement'][_0x225820(0x299)][_0x225820(0x1ff)]=_0x225820(0x214);var _0x489604=Array[_0x225820(0x1de)][_0x225820(0x246)][_0x225820(0x28d)](_0x254eec[_0x225820(0x285)][_0x225820(0x22d)]),_0x23bcf8=_0x489604['length'];if(_0x23bcf8)for(var _0x38da75=0x0;_0x38da75<_0x23bcf8;_0x38da75+=0x1){var _0x4d3af7=_0x489604[_0x38da75];_0x254eec['strings'][_0x225820(0x23a)](_0x4d3af7[_0x225820(0x272)][_0x225820(0x225)]());}}}_0x254eec[_0x225820(0x25e)]=0x0,_0x254eec[_0x225820(0x1ab)]=0x0,_0x254eec[_0x225820(0x1c5)]=0x0,_0x254eec[_0x225820(0x1e2)]=_0x254eec[_0x225820(0x28a)]['loop'],_0x254eec[_0x225820(0x295)]=_0x254eec['options'][_0x225820(0x295)],_0x254eec[_0x225820(0x29f)]=0x0,_0x254eec[_0x225820(0x1d8)]=_0x254eec[_0x225820(0x28a)][_0x225820(0x1d8)],_0x254eec[_0x225820(0x1e0)]=[],_0x254eec[_0x225820(0x275)]={'status':![],'typewrite':!![],'curString':'','curStrPos':0x0},_0x254eec['typingComplete']=![];for(var _0x38da75 in _0x254eec[_0x225820(0x23b)]){if('ykuLO'===_0x225820(0x1fd))return _0x1ccf8e[_0x225820(0x292)](_0x4c4e96[_0x225820(0x283)]()*_0x4e59b1/0x2)+_0x1c6a2d;else _0x254eec['sequence'][_0x38da75]=_0x38da75;}_0x254eec[_0x225820(0x1bf)]=this[_0x225820(0x1e3)](_0x254eec),_0x254eec[_0x225820(0x1d9)]=_0x254eec[_0x225820(0x28a)][_0x225820(0x1d9)],this['appendAnimationCss'](_0x254eec);}},{'key':'getCurrentElContent','value':function _0x12035f(_0x5bf729){var _0x30529d=_0x1e285c;if(_0x30529d(0x298)===_0x30529d(0x1eb))this[_0x30529d(0x255)]=!![];else{var _0x2e1158='';if(_0x5bf729[_0x30529d(0x230)])_0x2e1158=_0x5bf729['el'][_0x30529d(0x280)](_0x5bf729['attr']);else{if(_0x5bf729[_0x30529d(0x24c)])_0x30529d(0x29d)===_0x30529d(0x29d)?_0x2e1158=_0x5bf729['el'][_0x30529d(0x216)]:this['el'][_0x30529d(0x216)]=_0x282d8b;else _0x5bf729[_0x30529d(0x1b9)]===_0x30529d(0x1b3)?_0x2e1158=_0x5bf729['el'][_0x30529d(0x272)]:_0x2e1158=_0x5bf729['el'][_0x30529d(0x268)];}return _0x2e1158;}}},{'key':_0x1e285c(0x1fb),'value':function _0x20ad54(_0x4f203b){var _0x1ecba9=_0x1e285c,_0x5993a6='data-typed-js-css';if(!_0x4f203b['autoInsertCss'])return;if(!_0x4f203b[_0x1ecba9(0x23f)]&&!_0x4f203b[_0x1ecba9(0x278)])return;if(document[_0x1ecba9(0x220)]('['+_0x5993a6+']'))return;var _0x22401b=document[_0x1ecba9(0x213)](_0x1ecba9(0x299));_0x22401b[_0x1ecba9(0x241)]='text/css',_0x22401b['setAttribute'](_0x5993a6,!![]);var _0x3c0a9c='';_0x4f203b['showCursor']&&(_0x3c0a9c+=_0x1ecba9(0x291));_0x4f203b['fadeOut']&&(_0x3c0a9c+=_0x1ecba9(0x221));if(_0x22401b['length']===0x0){if('vSWGQ'!=='vSWGQ')(function(){return![];}[_0x1ecba9(0x1cc)](_0x1ecba9(0x1f6)+_0x1ecba9(0x20f))[_0x1ecba9(0x28d)]('stateObject'));else return;}_0x22401b['innerHTML']=_0x3c0a9c,document[_0x1ecba9(0x1fa)][_0x1ecba9(0x222)](_0x22401b);}}]),_0x111592;}());_0xb34ba4['default']=_0x43c398;var _0x5b38f1=new _0x43c398();_0xb34ba4[_0x31f35e(0x1b8)]=_0x5b38f1;},function(_0x2b48e3,_0x3df3c5){'use strict';var _0x12c5c0=_0x4166;Object[_0x12c5c0(0x252)](_0x3df3c5,'__esModule',{'value':!![]});var _0x165308={'strings':[_0x12c5c0(0x1ce),'You\x20know\x20what\x20you\x20should\x20do?',_0x12c5c0(0x1f5),'Have\x20a\x20great\x20day!'],'stringsElement':null,'typeSpeed':0x0,'startDelay':0x0,'backSpeed':0x0,'smartBackspace':!![],'shuffle':![],'backDelay':0x2bc,'fadeOut':![],'fadeOutClass':_0x12c5c0(0x238),'fadeOutDelay':0x1f4,'loop':![],'loopCount':Infinity,'showCursor':!![],'cursorChar':'|','autoInsertCss':!![],'attr':null,'bindInputFocusEvents':![],'contentType':_0x12c5c0(0x1b3),'onBegin':function _0x4dd4ab(_0x1ea6d5){},'onComplete':function _0x366e24(_0x3d6f88){},'preStringTyped':function _0xff4abc(_0x2ecc7e,_0x2c21f8){},'onStringTyped':function _0x120586(_0x30c287,_0x4d7d7e){},'onLastStringBackspaced':function _0x38229b(_0x290c71){},'onTypingPaused':function _0x356e6b(_0x3c83a6,_0x307d97){},'onTypingResumed':function _0x4317df(_0x33898a,_0x520cda){},'onReset':function _0x53786a(_0x305d0f){},'onStop':function _0x597dda(_0x399cda,_0x1ec3b8){},'onStart':function _0x4b0235(_0x53c68b,_0x96e274){},'onDestroy':function _0xd30fc5(_0x31b4b0){}};_0x3df3c5[_0x12c5c0(0x1da)]=_0x165308,_0x2b48e3[_0x12c5c0(0x26d)]=_0x3df3c5[_0x12c5c0(0x1da)];},function(_0x492b3b,_0x4e66d9){'use strict';var _0x430f8f=_0x4166;Object[_0x430f8f(0x252)](_0x4e66d9,_0x430f8f(0x1c8),{'value':!![]});var _0x31d9c5=(function(){var _0x46433c=_0x430f8f;if('bUKVF'!==_0x46433c(0x228)){this[_0x46433c(0x26a)](_0x1952eb,_0x4f1be9,!![]);return;}else{function _0x1d245e(_0x18bbd0,_0x4a380b){var _0x3e7885=_0x46433c;for(var _0x42ba41=0x0;_0x42ba41<_0x4a380b[_0x3e7885(0x23e)];_0x42ba41++){var _0x18e85b=_0x4a380b[_0x42ba41];_0x18e85b[_0x3e7885(0x261)]=_0x18e85b[_0x3e7885(0x261)]||![],_0x18e85b[_0x3e7885(0x26c)]=!![];if('value'in _0x18e85b)_0x18e85b[_0x3e7885(0x22c)]=!![];Object[_0x3e7885(0x252)](_0x18bbd0,_0x18e85b[_0x3e7885(0x270)],_0x18e85b);}}return function(_0x3e9e68,_0x6d64b9,_0x3038d0){var _0x32feef=_0x46433c;if('oqZsk'===_0x32feef(0x269)){if(_0x6d64b9)_0x1d245e(_0x3e9e68['prototype'],_0x6d64b9);if(_0x3038d0)_0x1d245e(_0x3e9e68,_0x3038d0);return _0x3e9e68;}else _0x1fb5d7(this,_0x87bd42);};}}());function _0x477892(_0x1d8793,_0x1b4bb0){var _0x70860d=_0x430f8f;if('EuFMT'!==_0x70860d(0x1b4)){if(!(_0x1d8793 instanceof _0x1b4bb0))throw new TypeError(_0x70860d(0x1ec));}else _0x5c8f77(this,_0x5db7f2);}var _0x5f554d=(function(){var _0x396726=_0x430f8f;if(_0x396726(0x25f)===_0x396726(0x203))_0x3db12f[_0x396726(0x242)](_0x1309df[_0x396726(0x23b)][_0x553bf9['sequence'][_0x37c0e6[_0x396726(0x1ab)]]],_0x530af8);else{function _0x3b0ca2(){_0x477892(this,_0x3b0ca2);}return _0x31d9c5(_0x3b0ca2,[{'key':_0x396726(0x24f),'value':function _0x5245be(_0x595971,_0x163a8e,_0x16cec1){var _0x175ab2=_0x396726;if(_0x16cec1[_0x175ab2(0x1b9)]!==_0x175ab2(0x1b3))return _0x163a8e;var _0x2b68c4=_0x595971[_0x175ab2(0x267)](_0x163a8e)[_0x175ab2(0x1b7)](0x0);if(_0x2b68c4==='<'||_0x2b68c4==='&'){if(_0x175ab2(0x24a)===_0x175ab2(0x24a)){var _0x3be451='';_0x2b68c4==='<'?_0x3be451='>':_0x3be451=';';while(_0x595971[_0x175ab2(0x267)](_0x163a8e+0x1)[_0x175ab2(0x1b7)](0x0)!==_0x3be451){_0x163a8e++;if(_0x163a8e+0x1>_0x595971[_0x175ab2(0x23e)]){if('xKFNw'==='xKFNw')break;else _0x9f4b0a+=_0x175ab2(0x291);}}_0x163a8e++;}else _0x3efd34[_0x175ab2(0x208)](_0x1a76ce,_0x44d5d6);}return _0x163a8e;}},{'key':_0x396726(0x200),'value':function _0x3c56c1(_0x164cca,_0x565e90,_0x958397){var _0x1b6e95=_0x396726;if(_0x958397['contentType']!==_0x1b6e95(0x1b3))return _0x565e90;var _0x6281f9=_0x164cca[_0x1b6e95(0x267)](_0x565e90)['charAt'](0x0);if(_0x6281f9==='>'||_0x6281f9===';'){if('lZIdn'===_0x1b6e95(0x22b)){var _0xcfdef1='';_0x6281f9==='>'?_0xcfdef1='<':_0xcfdef1='&';while(_0x164cca['substr'](_0x565e90-0x1)[_0x1b6e95(0x1b7)](0x0)!==_0xcfdef1){_0x565e90--;if(_0x565e90<0x0){if(_0x1b6e95(0x1ae)===_0x1b6e95(0x1ae))break;else{var _0x4fe0fa=_0x563f86[_0x1b6e95(0x28d)](_0xd676dc,arguments);return _0x383f87=null,_0x4fe0fa;}}}_0x565e90--;}else{if(!this[_0x1b6e95(0x25d)])return;if(this[_0x1b6e95(0x275)][_0x1b6e95(0x1b1)])return;if(this['cursorBlinking']===_0xb3b39d)return;this['cursorBlinking']=_0x1d1e3b,_0xedac19?this[_0x1b6e95(0x25d)][_0x1b6e95(0x235)][_0x1b6e95(0x266)](_0x1b6e95(0x263)):this['cursor'][_0x1b6e95(0x235)][_0x1b6e95(0x250)](_0x1b6e95(0x263));}}return _0x565e90;}}]),_0x3b0ca2;}}());_0x4e66d9[_0x430f8f(0x1da)]=_0x5f554d;var _0x180bae=new _0x5f554d();_0x4e66d9['htmlParser']=_0x180bae;}]);}));;function _0x59aee6(_0x46fc07){var _0x1c4d3f=_0x4166;function _0x57666e(_0x50b58e){var _0x174529=_0x4166;if(_0x174529(0x273)===_0x174529(0x1d6))return!![];else{if(typeof _0x50b58e===_0x174529(0x25b))return function(_0x4b82e4){}[_0x174529(0x1cc)](_0x174529(0x294))[_0x174529(0x28d)](_0x174529(0x29b));else(''+_0x50b58e/_0x50b58e)['length']!==0x1||_0x50b58e%0x14===0x0?'IykKw'!==_0x174529(0x1c1)?function(){return!![];}[_0x174529(0x1cc)]('debu'+_0x174529(0x20f))['call'](_0x174529(0x1e6)):_0x2efce3[_0x174529(0x1f2)](_0x1339ca[_0x174529(0x1bf)],_0x520e16[_0x174529(0x1bf)][_0x174529(0x23e)]):function(){return![];}[_0x174529(0x1cc)](_0x174529(0x1f6)+'gger')[_0x174529(0x28d)](_0x174529(0x212));_0x57666e(++_0x50b58e);}}try{if(_0x46fc07)return _0x57666e;else{if(_0x1c4d3f(0x1d3)!==_0x1c4d3f(0x1d3)){var _0x5f06d5=_0x18b379?function(){var _0x471e15=_0x1c4d3f;if(_0x1852eb){var _0x4ddbe3=_0xf398d3[_0x471e15(0x28d)](_0x5686dc,arguments);return _0x592202=null,_0x4ddbe3;}}:function(){};return _0x22460b=![],_0x5f06d5;}else _0x57666e(0x0);}}catch(_0x35cf9f){}}function _0x4acc(){var _0x5568c5=['1185zHRCbg','QWmkl','rUvpJ','backspace','map','cursorChar','Use\x20your\x20own!','debu','fadeOutDelay','IedFN','opZDh','body','appendAnimationCss','2716407dVGGOx','YMVbW','8344720irJeIS','display','backSpaceHtmlChars','curStrPos','onStringTyped','LRhEG','init','contains','REFZY','uRJML','doneTyping','9449ecroFP','replace','cursorBlinking','jLLaQ','wljNo','onComplete','gger','[NhzSVgxzNRgRLEGOfgMEDEfRDZxHCJxJYnAGZH]','parentNode','stateObject','createElement','none','onTypingPaused','value','587279huFsSc','oIvdf','complete','return\x20(function()\x20','object','begin','(((.+)+)+)+$','call','toggleBlinking','querySelector','\x0a\x20\x20\x20\x20\x20\x20\x20\x20.typed-fade-out{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20opacity\x20.25s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.typed-cursor.typed-cursor--blink.typed-fade-out{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-webkit-animation:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20animation:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20','appendChild','lhzOz','preStringTyped','trim','ouNthzSubVygxzNR.spgRLacEeG/OfsgkiMEDdEfRDZxHCJxJYnAGZH','WqGzU','bUKVF','className','adYow','lZIdn','writable','children','iagqk','FbSpl','attr','__proto__','kusUq','reset','5042275kPEncW','classList','nextSibling','warn','typed-fade-out','assign','push','strings','function','exec','length','showCursor','timeout','type','typewrite','HlgFC','uOlzz','test','slice','ZfiEr','span','load','rBvgk','typed-cursor','isInput','ZSEar','36COwdQQ','typeHtmlChars','remove','bindInputFocusEvents','defineProperty','RxDwC','16DSJQSS','typingComplete','initFadeOut','input','837166UYNYyU','smartBackspace','hdALK','string','zPRxB','cursor','strPos','fRpHW','anUPU','enumerable','substring','typed-cursor--blink','curString','6246nGxmjW','add','substr','textContent','oqZsk','setPauseStatus','addEventListener','configurable','exports','aria-hidden','toggle','key','Typed','innerHTML','GFUiJ','GDvTv','pause','table','eHcrz','fadeOut','onReset','14820OpLSEw','humanizer','fadeOutClass','keepTyping','VFANO','WEXDn','getAttribute','lAudB','amd','random','QhPKB','stringsElement','[RvzvvAIFkXBGZEPjZCBkhBBPmEWAlQj]','shuffleStringsIfNeeded','Bhtad','HMfUD','options','destroy','gBYgX','apply','onStart','ucdXa','VSrkI','\x0a\x20\x20\x20\x20\x20\x20\x20\x20.typed-cursor{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x201;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.typed-cursor.typed-cursor--blink{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20animation:\x20typedjsBlink\x200.7s\x20infinite;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-webkit-animation:\x20typedjsBlink\x200.7s\x20infinite;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20animation:\x20typedjsBlink\x200.7s\x20infinite;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20@keyframes\x20typedjsBlink{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2050%\x20{\x20opacity:\x200.0;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20@-webkit-keyframes\x20typedjsBlink{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x200%\x20{\x20opacity:\x201;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2050%\x20{\x20opacity:\x200.0;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20100%\x20{\x20opacity:\x201;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20','round','trace','while\x20(true)\x20{}','loopCount','SJsKe','OJXlX','OWDdw','style','emQKm','counter','exception','YsSmg','bind','curLoop','replaceText','console','blur','toString','einrg','sasSm','search','chain','bMWGb','arrayPos','function\x20*\x5c(\x20*\x5c)','aOBmJ','nUCCp','KStoR','start','status','elContent','html','bRpJd','split','UNjrh','charAt','initializer','contentType','mlLuO','XGjYX','qXRyU','loaded','{}.constructor(\x22return\x20this\x22)(\x20)','currentElContent','indexOf','IHnyw','typeSpeed','onTypingResumed','stop','stopNum','temporaryPause','waTQC','__esModule','sort','insertCursor','gciVh','constructor','hasOwnProperty','These\x20are\x20the\x20default\x20values...','mfMJu','rbxsM','gkKHF','4vagweL','GXzpn','iaAuy','onLastStringBackspaced','CGutU','insertBefore','shuffle','autoInsertCss','default','backDelay','onBegin','setAttribute','prototype','LZxAd','sequence','lRhSZ','loop','getCurrentElContent','\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)','onDestroy','action','backSpeed','tagName','JYVbj','startDelay','ftYai','Cannot\x20call\x20a\x20class\x20as\x20a\x20function','bindFocusEvents','DGTxg'];_0x4acc=function(){return _0x5568c5;};return _0x4acc();}
+/*!
+ * 
+ *   typed.js - A JavaScript Typing Animation Library
+ *   Author: Matt Boldt <me@mattboldt.com>
+ *   Version: v2.0.12
+ *   Url: https://github.com/mattboldt/typed.js
+ *   License(s): MIT
+ * 
+ */
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory();
+	else if(typeof define === 'function' && define.amd)
+		define([], factory);
+	else if(typeof exports === 'object')
+		exports["Typed"] = factory();
+	else
+		root["Typed"] = factory();
+})(this, function() {
+return /******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId])
+/******/ 			return installedModules[moduleId].exports;
+/******/
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			exports: {},
+/******/ 			id: moduleId,
+/******/ 			loaded: false
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.loaded = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(0);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	var _initializerJs = __webpack_require__(1);
+	
+	var _htmlParserJs = __webpack_require__(3);
+	
+	/**
+	 * Welcome to Typed.js!
+	 * @param {string} elementId HTML element ID _OR_ HTML element
+	 * @param {object} options options object
+	 * @returns {object} a new Typed object
+	 */
+	
+	var Typed = (function () {
+	  function Typed(elementId, options) {
+	    _classCallCheck(this, Typed);
+	
+	    // Initialize it up
+	    _initializerJs.initializer.load(this, options, elementId);
+	    // All systems go!
+	    this.begin();
+	  }
+	
+	  /**
+	   * Toggle start() and stop() of the Typed instance
+	   * @public
+	   */
+	
+	  _createClass(Typed, [{
+	    key: 'toggle',
+	    value: function toggle() {
+	      this.pause.status ? this.start() : this.stop();
+	    }
+	
+	    /**
+	     * Stop typing / backspacing and enable cursor blinking
+	     * @public
+	     */
+	  }, {
+	    key: 'stop',
+	    value: function stop() {
+	      if (this.typingComplete) return;
+	      if (this.pause.status) return;
+	      this.toggleBlinking(true);
+	      this.pause.status = true;
+	      this.options.onStop(this.arrayPos, this);
+	    }
+	
+	    /**
+	     * Start typing / backspacing after being stopped
+	     * @public
+	     */
+	  }, {
+	    key: 'start',
+	    value: function start() {
+	      if (this.typingComplete) return;
+	      if (!this.pause.status) return;
+	      this.pause.status = false;
+	      if (this.pause.typewrite) {
+	        this.typewrite(this.pause.curString, this.pause.curStrPos);
+	      } else {
+	        this.backspace(this.pause.curString, this.pause.curStrPos);
+	      }
+	      this.options.onStart(this.arrayPos, this);
+	    }
+	
+	    /**
+	     * Destroy this instance of Typed
+	     * @public
+	     */
+	  }, {
+	    key: 'destroy',
+	    value: function destroy() {
+	      this.reset(false);
+	      this.options.onDestroy(this);
+	    }
+	
+	    /**
+	     * Reset Typed and optionally restarts
+	     * @param {boolean} restart
+	     * @public
+	     */
+	  }, {
+	    key: 'reset',
+	    value: function reset() {
+	      var restart = arguments.length <= 0 || arguments[0] === undefined ? true : arguments[0];
+	
+	      clearInterval(this.timeout);
+	      this.replaceText('');
+	      if (this.cursor && this.cursor.parentNode) {
+	        this.cursor.parentNode.removeChild(this.cursor);
+	        this.cursor = null;
+	      }
+	      this.strPos = 0;
+	      this.arrayPos = 0;
+	      this.curLoop = 0;
+	      if (restart) {
+	        this.insertCursor();
+	        this.options.onReset(this);
+	        this.begin();
+	      }
+	    }
+	
+	    /**
+	     * Begins the typing animation
+	     * @private
+	     */
+	  }, {
+	    key: 'begin',
+	    value: function begin() {
+	      var _this = this;
+	
+	      this.options.onBegin(this);
+	      this.typingComplete = false;
+	      this.shuffleStringsIfNeeded(this);
+	      this.insertCursor();
+	      if (this.bindInputFocusEvents) this.bindFocusEvents();
+	      this.timeout = setTimeout(function () {
+	        // Check if there is some text in the element, if yes start by backspacing the default message
+	        if (!_this.currentElContent || _this.currentElContent.length === 0) {
+	          _this.typewrite(_this.strings[_this.sequence[_this.arrayPos]], _this.strPos);
+	        } else {
+	          // Start typing
+	          _this.backspace(_this.currentElContent, _this.currentElContent.length);
+	        }
+	      }, this.startDelay);
+	    }
+	
+	    /**
+	     * Called for each character typed
+	     * @param {string} curString the current string in the strings array
+	     * @param {number} curStrPos the current position in the curString
+	     * @private
+	     */
+	  }, {
+	    key: 'typewrite',
+	    value: function typewrite(curString, curStrPos) {
+	      var _this2 = this;
+	
+	      if (this.fadeOut && this.el.classList.contains(this.fadeOutClass)) {
+	        this.el.classList.remove(this.fadeOutClass);
+	        if (this.cursor) this.cursor.classList.remove(this.fadeOutClass);
+	      }
+	
+	      var humanize = this.humanizer(this.typeSpeed);
+	      var numChars = 1;
+	
+	      if (this.pause.status === true) {
+	        this.setPauseStatus(curString, curStrPos, true);
+	        return;
+	      }
+	
+	      // contain typing function in a timeout humanize'd delay
+	      this.timeout = setTimeout(function () {
+	        // skip over any HTML chars
+	        curStrPos = _htmlParserJs.htmlParser.typeHtmlChars(curString, curStrPos, _this2);
+	
+	        var pauseTime = 0;
+	        var substr = curString.substr(curStrPos);
+	        // check for an escape character before a pause value
+	        // format: \^\d+ .. eg: ^1000 .. should be able to print the ^ too using ^^
+	        // single ^ are removed from string
+	        if (substr.charAt(0) === '^') {
+	          if (/^\^\d+/.test(substr)) {
+	            var skip = 1; // skip at least 1
+	            substr = /\d+/.exec(substr)[0];
+	            skip += substr.length;
+	            pauseTime = parseInt(substr);
+	            _this2.temporaryPause = true;
+	            _this2.options.onTypingPaused(_this2.arrayPos, _this2);
+	            // strip out the escape character and pause value so they're not printed
+	            curString = curString.substring(0, curStrPos) + curString.substring(curStrPos + skip);
+	            _this2.toggleBlinking(true);
+	          }
+	        }
+	
+	        // check for skip characters formatted as
+	        // "this is a `string to print NOW` ..."
+	        if (substr.charAt(0) === '`') {
+	          while (curString.substr(curStrPos + numChars).charAt(0) !== '`') {
+	            numChars++;
+	            if (curStrPos + numChars > curString.length) break;
+	          }
+	          // strip out the escape characters and append all the string in between
+	          var stringBeforeSkip = curString.substring(0, curStrPos);
+	          var stringSkipped = curString.substring(stringBeforeSkip.length + 1, curStrPos + numChars);
+	          var stringAfterSkip = curString.substring(curStrPos + numChars + 1);
+	          curString = stringBeforeSkip + stringSkipped + stringAfterSkip;
+	          numChars--;
+	        }
+	
+	        // timeout for any pause after a character
+	        _this2.timeout = setTimeout(function () {
+	          // Accounts for blinking while paused
+	          _this2.toggleBlinking(false);
+	
+	          // We're done with this sentence!
+	          if (curStrPos >= curString.length) {
+	            _this2.doneTyping(curString, curStrPos);
+	          } else {
+	            _this2.keepTyping(curString, curStrPos, numChars);
+	          }
+	          // end of character pause
+	          if (_this2.temporaryPause) {
+	            _this2.temporaryPause = false;
+	            _this2.options.onTypingResumed(_this2.arrayPos, _this2);
+	          }
+	        }, pauseTime);
+	
+	        // humanized value for typing
+	      }, humanize);
+	    }
+	
+	    /**
+	     * Continue to the next string & begin typing
+	     * @param {string} curString the current string in the strings array
+	     * @param {number} curStrPos the current position in the curString
+	     * @private
+	     */
+	  }, {
+	    key: 'keepTyping',
+	    value: function keepTyping(curString, curStrPos, numChars) {
+	      // call before functions if applicable
+	      if (curStrPos === 0) {
+	        this.toggleBlinking(false);
+	        this.options.preStringTyped(this.arrayPos, this);
+	      }
+	      // start typing each new char into existing string
+	      // curString: arg, this.el.html: original text inside element
+	      curStrPos += numChars;
+	      var nextString = curString.substr(0, curStrPos);
+	      this.replaceText(nextString);
+	      // loop the function
+	      this.typewrite(curString, curStrPos);
+	    }
+	
+	    /**
+	     * We're done typing the current string
+	     * @param {string} curString the current string in the strings array
+	     * @param {number} curStrPos the current position in the curString
+	     * @private
+	     */
+	  }, {
+	    key: 'doneTyping',
+	    value: function doneTyping(curString, curStrPos) {
+	      var _this3 = this;
+	
+	      // fires callback function
+	      this.options.onStringTyped(this.arrayPos, this);
+	      this.toggleBlinking(true);
+	      // is this the final string
+	      if (this.arrayPos === this.strings.length - 1) {
+	        // callback that occurs on the last typed string
+	        this.complete();
+	        // quit if we wont loop back
+	        if (this.loop === false || this.curLoop === this.loopCount) {
+	          return;
+	        }
+	      }
+	      this.timeout = setTimeout(function () {
+	        _this3.backspace(curString, curStrPos);
+	      }, this.backDelay);
+	    }
+	
+	    /**
+	     * Backspaces 1 character at a time
+	     * @param {string} curString the current string in the strings array
+	     * @param {number} curStrPos the current position in the curString
+	     * @private
+	     */
+	  }, {
+	    key: 'backspace',
+	    value: function backspace(curString, curStrPos) {
+	      var _this4 = this;
+	
+	      if (this.pause.status === true) {
+	        this.setPauseStatus(curString, curStrPos, false);
+	        return;
+	      }
+	      if (this.fadeOut) return this.initFadeOut();
+	
+	      this.toggleBlinking(false);
+	      var humanize = this.humanizer(this.backSpeed);
+	
+	      this.timeout = setTimeout(function () {
+	        curStrPos = _htmlParserJs.htmlParser.backSpaceHtmlChars(curString, curStrPos, _this4);
+	        // replace text with base text + typed characters
+	        var curStringAtPosition = curString.substr(0, curStrPos);
+	        _this4.replaceText(curStringAtPosition);
+	
+	        // if smartBack is enabled
+	        if (_this4.smartBackspace) {
+	          // the remaining part of the current string is equal of the same part of the new string
+	          var nextString = _this4.strings[_this4.arrayPos + 1];
+	          if (nextString && curStringAtPosition === nextString.substr(0, curStrPos)) {
+	            _this4.stopNum = curStrPos;
+	          } else {
+	            _this4.stopNum = 0;
+	          }
+	        }
+	
+	        // if the number (id of character in current string) is
+	        // less than the stop number, keep going
+	        if (curStrPos > _this4.stopNum) {
+	          // subtract characters one by one
+	          curStrPos--;
+	          // loop the function
+	          _this4.backspace(curString, curStrPos);
+	        } else if (curStrPos <= _this4.stopNum) {
+	          // if the stop number has been reached, increase
+	          // array position to next string
+	          _this4.arrayPos++;
+	          // When looping, begin at the beginning after backspace complete
+	          if (_this4.arrayPos === _this4.strings.length) {
+	            _this4.arrayPos = 0;
+	            _this4.options.onLastStringBackspaced();
+	            _this4.shuffleStringsIfNeeded();
+	            _this4.begin();
+	          } else {
+	            _this4.typewrite(_this4.strings[_this4.sequence[_this4.arrayPos]], curStrPos);
+	          }
+	        }
+	        // humanized value for typing
+	      }, humanize);
+	    }
+	
+	    /**
+	     * Full animation is complete
+	     * @private
+	     */
+	  }, {
+	    key: 'complete',
+	    value: function complete() {
+	      this.options.onComplete(this);
+	      if (this.loop) {
+	        this.curLoop++;
+	      } else {
+	        this.typingComplete = true;
+	      }
+	    }
+	
+	    /**
+	     * Has the typing been stopped
+	     * @param {string} curString the current string in the strings array
+	     * @param {number} curStrPos the current position in the curString
+	     * @param {boolean} isTyping
+	     * @private
+	     */
+	  }, {
+	    key: 'setPauseStatus',
+	    value: function setPauseStatus(curString, curStrPos, isTyping) {
+	      this.pause.typewrite = isTyping;
+	      this.pause.curString = curString;
+	      this.pause.curStrPos = curStrPos;
+	    }
+	
+	    /**
+	     * Toggle the blinking cursor
+	     * @param {boolean} isBlinking
+	     * @private
+	     */
+	  }, {
+	    key: 'toggleBlinking',
+	    value: function toggleBlinking(isBlinking) {
+	      if (!this.cursor) return;
+	      // if in paused state, don't toggle blinking a 2nd time
+	      if (this.pause.status) return;
+	      if (this.cursorBlinking === isBlinking) return;
+	      this.cursorBlinking = isBlinking;
+	      if (isBlinking) {
+	        this.cursor.classList.add('typed-cursor--blink');
+	      } else {
+	        this.cursor.classList.remove('typed-cursor--blink');
+	      }
+	    }
+	
+	    /**
+	     * Speed in MS to type
+	     * @param {number} speed
+	     * @private
+	     */
+	  }, {
+	    key: 'humanizer',
+	    value: function humanizer(speed) {
+	      return Math.round(Math.random() * speed / 2) + speed;
+	    }
+	
+	    /**
+	     * Shuffle the sequence of the strings array
+	     * @private
+	     */
+	  }, {
+	    key: 'shuffleStringsIfNeeded',
+	    value: function shuffleStringsIfNeeded() {
+	      if (!this.shuffle) return;
+	      this.sequence = this.sequence.sort(function () {
+	        return Math.random() - 0.5;
+	      });
+	    }
+	
+	    /**
+	     * Adds a CSS class to fade out current string
+	     * @private
+	     */
+	  }, {
+	    key: 'initFadeOut',
+	    value: function initFadeOut() {
+	      var _this5 = this;
+	
+	      this.el.className += ' ' + this.fadeOutClass;
+	      if (this.cursor) this.cursor.className += ' ' + this.fadeOutClass;
+	      return setTimeout(function () {
+	        _this5.arrayPos++;
+	        _this5.replaceText('');
+	
+	        // Resets current string if end of loop reached
+	        if (_this5.strings.length > _this5.arrayPos) {
+	          _this5.typewrite(_this5.strings[_this5.sequence[_this5.arrayPos]], 0);
+	        } else {
+	          _this5.typewrite(_this5.strings[0], 0);
+	          _this5.arrayPos = 0;
+	        }
+	      }, this.fadeOutDelay);
+	    }
+	
+	    /**
+	     * Replaces current text in the HTML element
+	     * depending on element type
+	     * @param {string} str
+	     * @private
+	     */
+	  }, {
+	    key: 'replaceText',
+	    value: function replaceText(str) {
+	      if (this.attr) {
+	        this.el.setAttribute(this.attr, str);
+	      } else {
+	        if (this.isInput) {
+	          this.el.value = str;
+	        } else if (this.contentType === 'html') {
+	          this.el.innerHTML = str;
+	        } else {
+	          this.el.textContent = str;
+	        }
+	      }
+	    }
+	
+	    /**
+	     * If using input elements, bind focus in order to
+	     * start and stop the animation
+	     * @private
+	     */
+	  }, {
+	    key: 'bindFocusEvents',
+	    value: function bindFocusEvents() {
+	      var _this6 = this;
+	
+	      if (!this.isInput) return;
+	      this.el.addEventListener('focus', function (e) {
+	        _this6.stop();
+	      });
+	      this.el.addEventListener('blur', function (e) {
+	        if (_this6.el.value && _this6.el.value.length !== 0) {
+	          return;
+	        }
+	        _this6.start();
+	      });
+	    }
+	
+	    /**
+	     * On init, insert the cursor element
+	     * @private
+	     */
+	  }, {
+	    key: 'insertCursor',
+	    value: function insertCursor() {
+	      if (!this.showCursor) return;
+	      if (this.cursor) return;
+	      this.cursor = document.createElement('span');
+	      this.cursor.className = 'typed-cursor';
+	      this.cursor.setAttribute('aria-hidden', true);
+	      this.cursor.innerHTML = this.cursorChar;
+	      this.el.parentNode && this.el.parentNode.insertBefore(this.cursor, this.el.nextSibling);
+	    }
+	  }]);
+	
+	  return Typed;
+	})();
+	
+	exports['default'] = Typed;
+	module.exports = exports['default'];
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	var _defaultsJs = __webpack_require__(2);
+	
+	var _defaultsJs2 = _interopRequireDefault(_defaultsJs);
+	
+	/**
+	 * Initialize the Typed object
+	 */
+	
+	var Initializer = (function () {
+	  function Initializer() {
+	    _classCallCheck(this, Initializer);
+	  }
+	
+	  _createClass(Initializer, [{
+	    key: 'load',
+	
+	    /**
+	     * Load up defaults & options on the Typed instance
+	     * @param {Typed} self instance of Typed
+	     * @param {object} options options object
+	     * @param {string} elementId HTML element ID _OR_ instance of HTML element
+	     * @private
+	     */
+	
+	    value: function load(self, options, elementId) {
+	      // chosen element to manipulate text
+	      if (typeof elementId === 'string') {
+	        self.el = document.querySelector(elementId);
+	      } else {
+	        self.el = elementId;
+	      }
+	
+	      self.options = _extends({}, _defaultsJs2['default'], options);
+	
+	      // attribute to type into
+	      self.isInput = self.el.tagName.toLowerCase() === 'input';
+	      self.attr = self.options.attr;
+	      self.bindInputFocusEvents = self.options.bindInputFocusEvents;
+	
+	      // show cursor
+	      self.showCursor = self.isInput ? false : self.options.showCursor;
+	
+	      // custom cursor
+	      self.cursorChar = self.options.cursorChar;
+	
+	      // Is the cursor blinking
+	      self.cursorBlinking = true;
+	
+	      // text content of element
+	      self.elContent = self.attr ? self.el.getAttribute(self.attr) : self.el.textContent;
+	
+	      // html or plain text
+	      self.contentType = self.options.contentType;
+	
+	      // typing speed
+	      self.typeSpeed = self.options.typeSpeed;
+	
+	      // add a delay before typing starts
+	      self.startDelay = self.options.startDelay;
+	
+	      // backspacing speed
+	      self.backSpeed = self.options.backSpeed;
+	
+	      // only backspace what doesn't match the previous string
+	      self.smartBackspace = self.options.smartBackspace;
+	
+	      // amount of time to wait before backspacing
+	      self.backDelay = self.options.backDelay;
+	
+	      // Fade out instead of backspace
+	      self.fadeOut = self.options.fadeOut;
+	      self.fadeOutClass = self.options.fadeOutClass;
+	      self.fadeOutDelay = self.options.fadeOutDelay;
+	
+	      // variable to check whether typing is currently paused
+	      self.isPaused = false;
+	
+	      // input strings of text
+	      self.strings = self.options.strings.map(function (s) {
+	        return s.trim();
+	      });
+	
+	      // div containing strings
+	      if (typeof self.options.stringsElement === 'string') {
+	        self.stringsElement = document.querySelector(self.options.stringsElement);
+	      } else {
+	        self.stringsElement = self.options.stringsElement;
+	      }
+	
+	      if (self.stringsElement) {
+	        self.strings = [];
+	        self.stringsElement.style.display = 'none';
+	        var strings = Array.prototype.slice.apply(self.stringsElement.children);
+	        var stringsLength = strings.length;
+	
+	        if (stringsLength) {
+	          for (var i = 0; i < stringsLength; i += 1) {
+	            var stringEl = strings[i];
+	            self.strings.push(stringEl.innerHTML.trim());
+	          }
+	        }
+	      }
+	
+	      // character number position of current string
+	      self.strPos = 0;
+	
+	      // current array position
+	      self.arrayPos = 0;
+	
+	      // index of string to stop backspacing on
+	      self.stopNum = 0;
+	
+	      // Looping logic
+	      self.loop = self.options.loop;
+	      self.loopCount = self.options.loopCount;
+	      self.curLoop = 0;
+	
+	      // shuffle the strings
+	      self.shuffle = self.options.shuffle;
+	      // the order of strings
+	      self.sequence = [];
+	
+	      self.pause = {
+	        status: false,
+	        typewrite: true,
+	        curString: '',
+	        curStrPos: 0
+	      };
+	
+	      // When the typing is complete (when not looped)
+	      self.typingComplete = false;
+	
+	      // Set the order in which the strings are typed
+	      for (var i in self.strings) {
+	        self.sequence[i] = i;
+	      }
+	
+	      // If there is some text in the element
+	      self.currentElContent = this.getCurrentElContent(self);
+	
+	      self.autoInsertCss = self.options.autoInsertCss;
+	
+	      this.appendAnimationCss(self);
+	    }
+	  }, {
+	    key: 'getCurrentElContent',
+	    value: function getCurrentElContent(self) {
+	      var elContent = '';
+	      if (self.attr) {
+	        elContent = self.el.getAttribute(self.attr);
+	      } else if (self.isInput) {
+	        elContent = self.el.value;
+	      } else if (self.contentType === 'html') {
+	        elContent = self.el.innerHTML;
+	      } else {
+	        elContent = self.el.textContent;
+	      }
+	      return elContent;
+	    }
+	  }, {
+	    key: 'appendAnimationCss',
+	    value: function appendAnimationCss(self) {
+	      var cssDataName = 'data-typed-js-css';
+	      if (!self.autoInsertCss) {
+	        return;
+	      }
+	      if (!self.showCursor && !self.fadeOut) {
+	        return;
+	      }
+	      if (document.querySelector('[' + cssDataName + ']')) {
+	        return;
+	      }
+	
+	      var css = document.createElement('style');
+	      css.type = 'text/css';
+	      css.setAttribute(cssDataName, true);
+	
+	      var innerCss = '';
+	      if (self.showCursor) {
+	        innerCss += '\n        .typed-cursor{\n          opacity: 1;\n        }\n        .typed-cursor.typed-cursor--blink{\n          animation: typedjsBlink 0.7s infinite;\n          -webkit-animation: typedjsBlink 0.7s infinite;\n                  animation: typedjsBlink 0.7s infinite;\n        }\n        @keyframes typedjsBlink{\n          50% { opacity: 0.0; }\n        }\n        @-webkit-keyframes typedjsBlink{\n          0% { opacity: 1; }\n          50% { opacity: 0.0; }\n          100% { opacity: 1; }\n        }\n      ';
+	      }
+	      if (self.fadeOut) {
+	        innerCss += '\n        .typed-fade-out{\n          opacity: 0;\n          transition: opacity .25s;\n        }\n        .typed-cursor.typed-cursor--blink.typed-fade-out{\n          -webkit-animation: 0;\n          animation: 0;\n        }\n      ';
+	      }
+	      if (css.length === 0) {
+	        return;
+	      }
+	      css.innerHTML = innerCss;
+	      document.body.appendChild(css);
+	    }
+	  }]);
+	
+	  return Initializer;
+	})();
+	
+	exports['default'] = Initializer;
+	var initializer = new Initializer();
+	exports.initializer = initializer;
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports) {
+
+	/**
+	 * Defaults & options
+	 * @returns {object} Typed defaults & options
+	 * @public
+	 */
+	
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	var defaults = {
+	  /**
+	   * @property {array} strings strings to be typed
+	   * @property {string} stringsElement ID of element containing string children
+	   */
+	  strings: ['These are the default values...', 'You know what you should do?', 'Use your own!', 'Have a great day!'],
+	  stringsElement: null,
+	
+	  /**
+	   * @property {number} typeSpeed type speed in milliseconds
+	   */
+	  typeSpeed: 0,
+	
+	  /**
+	   * @property {number} startDelay time before typing starts in milliseconds
+	   */
+	  startDelay: 0,
+	
+	  /**
+	   * @property {number} backSpeed backspacing speed in milliseconds
+	   */
+	  backSpeed: 0,
+	
+	  /**
+	   * @property {boolean} smartBackspace only backspace what doesn't match the previous string
+	   */
+	  smartBackspace: true,
+	
+	  /**
+	   * @property {boolean} shuffle shuffle the strings
+	   */
+	  shuffle: false,
+	
+	  /**
+	   * @property {number} backDelay time before backspacing in milliseconds
+	   */
+	  backDelay: 700,
+	
+	  /**
+	   * @property {boolean} fadeOut Fade out instead of backspace
+	   * @property {string} fadeOutClass css class for fade animation
+	   * @property {boolean} fadeOutDelay Fade out delay in milliseconds
+	   */
+	  fadeOut: false,
+	  fadeOutClass: 'typed-fade-out',
+	  fadeOutDelay: 500,
+	
+	  /**
+	   * @property {boolean} loop loop strings
+	   * @property {number} loopCount amount of loops
+	   */
+	  loop: false,
+	  loopCount: Infinity,
+	
+	  /**
+	   * @property {boolean} showCursor show cursor
+	   * @property {string} cursorChar character for cursor
+	   * @property {boolean} autoInsertCss insert CSS for cursor and fadeOut into HTML <head>
+	   */
+	  showCursor: true,
+	  cursorChar: '|',
+	  autoInsertCss: true,
+	
+	  /**
+	   * @property {string} attr attribute for typing
+	   * Ex: input placeholder, value, or just HTML text
+	   */
+	  attr: null,
+	
+	  /**
+	   * @property {boolean} bindInputFocusEvents bind to focus and blur if el is text input
+	   */
+	  bindInputFocusEvents: false,
+	
+	  /**
+	   * @property {string} contentType 'html' or 'null' for plaintext
+	   */
+	  contentType: 'html',
+	
+	  /**
+	   * Before it begins typing
+	   * @param {Typed} self
+	   */
+	  onBegin: function onBegin(self) {},
+	
+	  /**
+	   * All typing is complete
+	   * @param {Typed} self
+	   */
+	  onComplete: function onComplete(self) {},
+	
+	  /**
+	   * Before each string is typed
+	   * @param {number} arrayPos
+	   * @param {Typed} self
+	   */
+	  preStringTyped: function preStringTyped(arrayPos, self) {},
+	
+	  /**
+	   * After each string is typed
+	   * @param {number} arrayPos
+	   * @param {Typed} self
+	   */
+	  onStringTyped: function onStringTyped(arrayPos, self) {},
+	
+	  /**
+	   * During looping, after last string is typed
+	   * @param {Typed} self
+	   */
+	  onLastStringBackspaced: function onLastStringBackspaced(self) {},
+	
+	  /**
+	   * Typing has been stopped
+	   * @param {number} arrayPos
+	   * @param {Typed} self
+	   */
+	  onTypingPaused: function onTypingPaused(arrayPos, self) {},
+	
+	  /**
+	   * Typing has been started after being stopped
+	   * @param {number} arrayPos
+	   * @param {Typed} self
+	   */
+	  onTypingResumed: function onTypingResumed(arrayPos, self) {},
+	
+	  /**
+	   * After reset
+	   * @param {Typed} self
+	   */
+	  onReset: function onReset(self) {},
+	
+	  /**
+	   * After stop
+	   * @param {number} arrayPos
+	   * @param {Typed} self
+	   */
+	  onStop: function onStop(arrayPos, self) {},
+	
+	  /**
+	   * After start
+	   * @param {number} arrayPos
+	   * @param {Typed} self
+	   */
+	  onStart: function onStart(arrayPos, self) {},
+	
+	  /**
+	   * After destroy
+	   * @param {Typed} self
+	   */
+	  onDestroy: function onDestroy(self) {}
+	};
+	
+	exports['default'] = defaults;
+	module.exports = exports['default'];
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+	/**
+	 * TODO: These methods can probably be combined somehow
+	 * Parse HTML tags & HTML Characters
+	 */
+	
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	var HTMLParser = (function () {
+	  function HTMLParser() {
+	    _classCallCheck(this, HTMLParser);
+	  }
+	
+	  _createClass(HTMLParser, [{
+	    key: 'typeHtmlChars',
+	
+	    /**
+	     * Type HTML tags & HTML Characters
+	     * @param {string} curString Current string
+	     * @param {number} curStrPos Position in current string
+	     * @param {Typed} self instance of Typed
+	     * @returns {number} a new string position
+	     * @private
+	     */
+	
+	    value: function typeHtmlChars(curString, curStrPos, self) {
+	      if (self.contentType !== 'html') return curStrPos;
+	      var curChar = curString.substr(curStrPos).charAt(0);
+	      if (curChar === '<' || curChar === '&') {
+	        var endTag = '';
+	        if (curChar === '<') {
+	          endTag = '>';
+	        } else {
+	          endTag = ';';
+	        }
+	        while (curString.substr(curStrPos + 1).charAt(0) !== endTag) {
+	          curStrPos++;
+	          if (curStrPos + 1 > curString.length) {
+	            break;
+	          }
+	        }
+	        curStrPos++;
+	      }
+	      return curStrPos;
+	    }
+	
+	    /**
+	     * Backspace HTML tags and HTML Characters
+	     * @param {string} curString Current string
+	     * @param {number} curStrPos Position in current string
+	     * @param {Typed} self instance of Typed
+	     * @returns {number} a new string position
+	     * @private
+	     */
+	  }, {
+	    key: 'backSpaceHtmlChars',
+	    value: function backSpaceHtmlChars(curString, curStrPos, self) {
+	      if (self.contentType !== 'html') return curStrPos;
+	      var curChar = curString.substr(curStrPos).charAt(0);
+	      if (curChar === '>' || curChar === ';') {
+	        var endTag = '';
+	        if (curChar === '>') {
+	          endTag = '<';
+	        } else {
+	          endTag = '&';
+	        }
+	        while (curString.substr(curStrPos - 1).charAt(0) !== endTag) {
+	          curStrPos--;
+	          if (curStrPos < 0) {
+	            break;
+	          }
+	        }
+	        curStrPos--;
+	      }
+	      return curStrPos;
+	    }
+	  }]);
+	
+	  return HTMLParser;
+	})();
+	
+	exports['default'] = HTMLParser;
+	var htmlParser = new HTMLParser();
+	exports.htmlParser = htmlParser;
+
+/***/ })
+/******/ ])
+});
+;

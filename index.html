@@ -39,22 +39,6 @@
     <script src="js/creativa-popup.js" type="text/javascript"></script>
     <script src="js/popup.js" type="text/javascript"></script>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const preloader = document.querySelector('.preloader');
-        preloader.classList.add('expand-fade-out');
-        setTimeout(function() {
-            preloader.classList.add('hidden');
-        }, 700);
-    });
-
-    window.addEventListener('load', function() {
-        const preloader = document.querySelector('.preloader');
-        preloader.style.opacity = 1;
-        preloader.classList.remove('hidden');
-    });
-</script>
-
 </head>
 <body oncontextmenu="return false;" onkeydown="return false;" style="overflow: hidden">
 
@@ -67,9 +51,9 @@
 
 <!--TODO: add preloader-->
 
-<!--<div class="preloader">-->
-<!--    <img class="spin" src="img/outubyismygod.png" alt="Preloader" width="500px" height="auto">-->
-<!--</div>-->
+<div class="preloader">
+    <img class="spin" src="img/outubyismygod.png" alt="Preloader" width="300px" height="auto">
+</div>
 
 <video id="myVideo" loop autoplay muted>
     <source src="video/Bg2.mp4" type="video/mp4">
@@ -182,9 +166,7 @@
         loop: true,
         smartBackspace: true,
     });
-</script>
 
-<script>
     window.addEventListener('keydown', function (e) {
             if (e.key === 'F5') {
                 location.reload();
@@ -210,6 +192,19 @@
             document.documentElement.requestFullscreen().catch(console.log);
         }
     }
+
+    window.addEventListener('load', function() {
+        var preloader = document.querySelector('.preloader');
+        var preloaderImg = document.querySelector('.preloader img');
+
+        // Add the expand-fade-out class to trigger the animation
+        preloader.classList.add('expand-fade-out');
+
+        // Delay removing the preloader until the animation completes
+        setTimeout(function() {
+            preloader.style.display = 'none';
+        }, 700);
+    });
 </script>
 
 

@@ -55,9 +55,14 @@
 <body oncontextmenu="return false;" onkeydown="return false;" style="overflow: hidden">
 
 <!--TODO: add preloader-->
-<!--<div class="preloader">-->
-<!--    <img class="spin" src="img/outubyismygod.png" alt="Preloader" width="500px" height="auto">-->
-<!--</div>-->
+<div class="preloader">
+    <img class="spin" src="img/outubyismygod.png" alt="Preloader" width="300px" height="auto">
+</div>
+
+<video id="myVideo" loop autoplay muted>
+    <source src="video/Bg2.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
 
 <!-- particles.js container -->
 <div id="particles-js"></div>
@@ -101,9 +106,7 @@
         loop: false,
         smartBackspace: true,
     });
-</script>
 
-<script>
     window.addEventListener('keydown', function (e) {
             if (e.key === 'F5') {
                 location.reload();
@@ -129,6 +132,19 @@
             document.documentElement.requestFullscreen().catch(console.log);
         }
     }
+
+    window.addEventListener('load', function() {
+        var preloader = document.querySelector('.preloader');
+        var preloaderImg = document.querySelector('.preloader img');
+
+        // Add the expand-fade-out class to trigger the animation
+        preloader.classList.add('expand-fade-out');
+
+        // Delay removing the preloader until the animation completes
+        setTimeout(function() {
+            preloader.style.display = 'none';
+        }, 700);
+    });
 </script>
 
 

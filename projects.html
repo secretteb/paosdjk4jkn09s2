@@ -11,7 +11,7 @@
         gtag('config', 'G-PW87BT2BNH');
     </script>
     <meta charset="utf-8">
-    <title>Outubys</title>
+    <title>Outubys Projects</title>
     <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
           name="viewport">
     <meta content="outuby,outuby youtube,outuby website,outuby.space,outuby website,tired client,koks client,outubys projects,outuby projects" name="keywords">
@@ -66,30 +66,14 @@
 
         }
     </script>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const preloader = document.querySelector('.preloader');
-            preloader.classList.add('expand-fade-out');
-            setTimeout(function() {
-                preloader.classList.add('hidden');
-            }, 500);
-        });
-
-        window.addEventListener('load', function() {
-            const preloader = document.querySelector('.preloader');
-            preloader.style.opacity = 1;
-            preloader.classList.remove('hidden');
-        });
-    </script>
 </head>
 <body oncontextmenu="return false;" onkeydown="return false;" style="overflow: hidden">
 <!--<body oncontextmenu="return false;" style="overflow: hidden">-->
 
 <!--TODO: add preloader-->
-<!--<div class="preloader">-->
-<!--    <img class="spin" src="img/outubyismygod.png" alt="Preloader" width="500px" height="auto">-->
-<!--</div>-->
+<div class="preloader">
+    <img class="spin" src="img/outubyismygod.png" alt="Preloader" width="300px" height="auto">
+</div>
 
 <video id="myVideo" loop autoplay muted>
     <source src="video/Bg2.mp4" type="video/mp4">
@@ -171,9 +155,7 @@
         loop: false,
         smartBackspace: true,
     });
-</script>
 
-<script>
     window.addEventListener('keydown', function (e) {
             if (e.key === 'F5') {
                 location.reload();
@@ -199,6 +181,19 @@
             document.documentElement.requestFullscreen().catch(console.log);
         }
     }
+
+    window.addEventListener('load', function() {
+        var preloader = document.querySelector('.preloader');
+        var preloaderImg = document.querySelector('.preloader img');
+
+        // Add the expand-fade-out class to trigger the animation
+        preloader.classList.add('expand-fade-out');
+
+        // Delay removing the preloader until the animation completes
+        setTimeout(function() {
+            preloader.style.display = 'none';
+        }, 700);
+    });
 </script>
 
 
