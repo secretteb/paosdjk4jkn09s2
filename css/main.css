@@ -233,6 +233,51 @@ h1, p, span, a, li {
     color: #171717;
 }
 
+.wrap .button2 {
+    display: block;
+    float: left;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    margin: 1rem .5rem;
+    border: .187rem solid white;
+    padding: .6rem .5rem .7rem .5rem;
+    text-decoration: none;
+    color: white;
+    transition: all .4s cubic-bezier(0.42, 0, 0.24, 1.87);
+    border-radius: 1.563rem;
+    text-transform: capitalize;
+    letter-spacing: .15rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.wrap .button2 a {
+    color: black;
+    text-decoration: none;
+}
+.wrap .button2 .fa {
+    margin-right: 6px;
+}
+.wrap .button2:hover {
+    transform: scale(1.1);
+    background: white;
+    color: black;
+}
+
+.wrap .button2:active {
+    transform: scale(1.05);
+    background: #ffffff;
+    color: #171717;
+}
+
+/* add a small text that is positined under the normal warp button2 a */
+.wrap .button2 a .small {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #b19cff;
+}
+
 
 /* cock coded 404 stuff */
 .notfoiund {
