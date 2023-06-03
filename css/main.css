@@ -33,6 +33,7 @@ h1, p, span, a, li {
     left: 50%;
     transform: translate(-50%, -50%);
     /*border: solid 3px #ffffff;*/
+    /*box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, .5);*/
     padding: 4rem;
     border-radius: 2rem;
 }
@@ -119,7 +120,7 @@ h1, p, span, a, li {
 /*    color: #171717;*/
 /*}*/
 
-.blur {
+.effect {
     backdrop-filter: blur(.3rem);
     -webkit-backdrop-filter: blur(.3rem);
     position: absolute;
@@ -130,6 +131,19 @@ h1, p, span, a, li {
     z-index: -1;
     border-radius: 2rem;
 }
+
+.effect2 {
+    backdrop-filter: blur(15px) saturate(100%);
+    -webkit-backdrop-filter: blur(15px) saturate(100%);
+    background-color: rgba(39, 39, 39, 0.15);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
 
 .contactding {
     color: #b19cff;
@@ -173,8 +187,8 @@ h1, p, span, a, li {
     /*left: -25%;*/
     z-index: -2;
     opacity: .9;
-    filter: blur(.2rem);
-    -webkit-filter: blur(.2rem);
+    filter: blur(.01rem);
+    -webkit-filter: blur(.01rem);
 }
 
 .wrap {
@@ -521,4 +535,8 @@ img {
     .back-arrow {
         display: block;
     }
+}
+
+.offlinecolor {
+    color: #ff0000;
 }

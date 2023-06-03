@@ -1,0 +1,78 @@
+.class-info {
+    background: var(--dark-color);
+    box-shadow: 6px 0 38px rgba(20,20,20,0.10);
+    border-radius: 0 0 2px 2px;
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+.class-info img {
+    border-radius: 2px 2px 0 0;
+}
+
+.class-info strong {
+    color: var(--gray-color);
+}
+
+.class-price {
+    background: var(--primary-color);
+    border-radius: var(--border-radius-large);
+    color: var(--white-color);
+    font-weight: var(--font-weight-bold);
+    display: block;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+}
+
+.nasfoij3d90i {
+  color: rgb(176, 183, 255);
+}
+
+.nasfoij3d90i:hover {
+  color: rgb(151, 159, 255);
+  text-shadow: black 0px 0px 7px;
+}
+
+a {
+  color: #635fdb;
+}
+a:hover {
+  color: #4b48b1;
+  text-shadow: black 0px 0px 7px;
+}
+
+.growding {
+  transition: all 0.3s cubic-bezier(0.42, 0, 0.25, 2.01);
+}
+.growding:hover {
+  transform: scale(1.075);
+}
+
+.alla9f0k3 {
+  transition: all 0.3s cubic-bezier(0.42, 0, 0.25, 2.01);
+}
+.alla9f0k3:hover {
+  transform: translateY(10px);
+}
+
+.skushstinkt {
+  font-size: 14px;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.skushstinkt:hover {
+  color: #917bf3;
+  text-shadow: black 0px 0px 7px;
+}
+
+.footerlogo {
+  filter: drop-shadow(0 0 0.3ch #000);
+}
+.footerlogo:hover {
+  filter: drop-shadow(0 0 0.5ch #000);
+}
