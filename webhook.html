@@ -50,11 +50,15 @@
 
 <!-- particles.js container -->
 <div id="particles-js"></div>
+<div id="info-icon">
+    <i class="fa-regular fa-circle-question"></i>
+    <span class="info-text">Hover for more info</span>
+</div>
 <div class="center2">
-    <!-- <div class="blur"></div> -->
+<!--    <div class="effect"></div>-->
     <div class="content" style="transform:translateY(-5rem)">
         <div class="ubschr2">
-            <h1 style="opacity: 0; top: 0">Webhook Tool</h1>
+            <h1 style="opacity: 0; top: 0;">Webhook Tool</h1>
             <div class="typed">
                 <h1><span class="type"></span></h1>
             </div>
@@ -68,13 +72,11 @@
 
             <!-- add an input for text with a limit of 250 characters -->
             <div class="input-container">
-                <div class="effect"></div>
                 <textarea id="text-input" name="text-input" placeholder="Text (Max 250 characters)" maxlength="250"></textarea>
             </div>
 
             <!-- add button group for the two buttons -->
             <div class="button-group">
-                <div class="effect"></div>
                 <button type="submit" onclick="handleSendButtonClick()">Send Message</button>
                 <button type="button" onclick="handleForceDeleteButtonClick()">Delete Webhook</button>
             </div>
@@ -83,13 +85,11 @@
     </div>
 </div>
 
-<!-- Success notification -->
 <div id="success-notification" class="notification success"></div>
 
-<!-- Error notification -->
 <div id="error-notification" class="notification error"></div>
 
-
+<a href="https://outuby.space/" class="back-arrow"><i class="fa-solid fa-arrow-left"></i></a>
 
 <footer id="footer">
           <span class="copyright"
@@ -164,6 +164,7 @@
 <script src="js/particles.js"></script>
 <script src="js/oh_no.js"></script>
 <script src="js/app.js"></script>
+<script src="js/popup2ig.js.js"></script>
 <script src="js/main.js"></script>
 
 

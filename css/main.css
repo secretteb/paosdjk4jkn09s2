@@ -617,12 +617,11 @@ img {
     color: #ff0000;
 }
 
-
 .wrap2 {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
+    align-items: center;
+    justify-content: center;
     margin-top: 2rem;
 }
 
@@ -635,12 +634,11 @@ button {
     font-size: 1rem;
     margin-bottom: 1rem;
     width: 300px;
-    /* change font color and background color */
     color: #ffffff;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.05);
 
 }
-/*change placeholder color*/
+
 ::placeholder {
     color: #d5d5d5;
     opacity: 1; /* Firefox */
@@ -649,20 +647,20 @@ button {
 textarea[name="text-input"] {
     height: 150px;
     width: 350px;
-    resize: none; /* Allow vertical resizing */
+    resize: none;
 }
 
 .input-container {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem; /* Add spacing between input containers */
+    margin-bottom: 1rem;
 }
 
 .button-group {
     display: flex;
-    justify-content: center; /* Center buttons horizontally */
-    align-items: flex-start; /* Align buttons on the top */
-    flex-wrap: wrap; /* Allow buttons to wrap if necessary */
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 button {
@@ -690,7 +688,6 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -45%);
-    padding: 4rem;
     border-radius: 2rem;
 }
 
@@ -721,17 +718,16 @@ button:active {
     }
 
     .button-group {
-        align-items: flex-start; /* Align buttons to the left on smaller screens */
+        align-items: flex-start;
     }
 
     button {
-        width: 75%; /* Make buttons occupy full width on smaller screens */
+        width: 75%;
         margin-bottom: 1rem;
     }
 }
 
 
-/* CSS for the notifications */
 .notification {
     position: fixed;
     bottom: 10px;
@@ -752,4 +748,46 @@ button:active {
 
 .notification.error {
     background-color: #f44336;
+}
+
+#info-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    overflow: hidden;
+}
+
+#info-icon:hover {
+    width: 350px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+.info-text {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    transition: opacity 0.3s, visibility 0s 0.3s;
+}
+
+#info-icon:hover .info-text {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s;
 }
