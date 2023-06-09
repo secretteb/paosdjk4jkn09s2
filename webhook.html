@@ -11,48 +11,32 @@
         gtag('config', 'G-PW87BT2BNH');
     </script>
     <meta charset="utf-8">
-    <title>Skid</title>
+    <title>Webhook Tool</title>
     <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
           name="viewport">
 
     <meta content="outuby.space 👑" property="og:title"/>
     <meta content="if ur reading this sub to my yt" property="og:description"/>
     <meta content="https://outuby.space" property="og:url"/>
-    <meta content="img/outubyismygod.png" property="og:image"/>
+    <meta content="https://outuby.space/img/outubyismygod.png" property="og:image"/>
     <meta content="#BD00FF" data-react-helmet="true" name="theme-color"/>
 
-    <meta content="If you read this you have to subscribe to my yt :)" name="description">
+    <meta content="Send messages to a Discord webhook or just delete the webhook to annoy someone :)" name="description">
 
-    <link href="img/laugh_at_skids.png" rel="icon" type="image/ico"/>
+    <link href="https://outuby.space/img/outubyismygod.png" rel="icon" type="image/ico"/>
 
     <!-- CSS -->
     <link href="css/particles.css" media="screen" rel="stylesheet">
     <link href="css/main.css" media="screen" rel="stylesheet">
     <link href="css/creativa-popup.css" rel="stylesheet">
-    <link href="css/test.css" rel="stylesheet">
 
     <!-- JS -->
-    <script src="js/title3.js"></script>
-    <script src="js/particle_basetest.js"></script>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const preloader = document.querySelector('.preloader');
-            preloader.classList.add('expand-fade-out');
-            setTimeout(function() {
-                preloader.classList.add('hidden');
-            }, 500);
-        });
-
-        window.addEventListener('load', function() {
-            const preloader = document.querySelector('.preloader');
-            preloader.style.opacity = 1;
-            preloader.classList.remove('hidden');
-        });
-    </script>
+    <script src="js/title4.js"></script>
 
 </head>
-<body oncontextmenu="return false;" onkeydown="return false;" style="overflow: hidden">
+
+<body oncontextmenu="return false;" style="overflow: hidden">
+<!--<body oncontextmenu="return false;" style="overflow: hidden">-->
 
 <!--TODO: add preloader-->
 <div class="preloader">
@@ -66,29 +50,52 @@
 
 <!-- particles.js container -->
 <div id="particles-js"></div>
-<div class="center">
-    <!--        <div class="blur"></div>-->
-    <div class="content">
-        <div class="typed2" style="transform: translateY(-50px)">
-            <h1><span class="type"></span></h1>
-        </div>
-
-        <div class="wrap skid">
-            <div>
-                <a href="https://outuby.space/">
-                    <p class='button skid2'>
-                        <i class="fa-solid fa-angles-left"></i>
-                        I'm a skid.
-                    </p>
-                </a>
+<div class="center2">
+    <!-- <div class="blur"></div> -->
+    <div class="content" style="transform:translateY(-5rem)">
+        <div class="ubschr2">
+            <h1 style="opacity: 0; top: 0">Webhook Tool</h1>
+            <div class="typed">
+                <h1><span class="type"></span></h1>
             </div>
         </div>
+
+        <div class="wrap2">
+            <!-- add an input with webhook URL -->
+            <div class="input-container">
+                <input id="webhook-url" type="text" name="webhook-url" placeholder="Webhook URL">
+            </div>
+
+            <!-- add an input for text with a limit of 250 characters -->
+            <div class="input-container">
+                <div class="effect"></div>
+                <textarea id="text-input" name="text-input" placeholder="Text (Max 250 characters)" maxlength="250"></textarea>
+            </div>
+
+            <!-- add button group for the two buttons -->
+            <div class="button-group">
+                <div class="effect"></div>
+                <button type="submit" onclick="handleSendButtonClick()">Send Message</button>
+                <button type="button" onclick="handleForceDeleteButtonClick()">Delete Webhook</button>
+            </div>
+        </div>
+
     </div>
 </div>
 
+<!-- Success notification -->
+<div id="success-notification" class="notification success"></div>
+
+<!-- Error notification -->
+<div id="error-notification" class="notification error"></div>
+
+
 
 <footer id="footer">
-          <span class="copyright">Copyright © 2023 outuby.space</span>
+          <span class="copyright"
+          >Copyright © 2023
+            outuby.space</span
+          >
 </footer>
 
 <script src="js/typed.js"></script>
@@ -96,15 +103,14 @@
 <script>
     var typed = new Typed('.type', {
         strings: [
-            "Look at you...",
-            "Look at you... skidding websites...",
-            "Look at you... skidding websites... wow...",
+            "Webhook Tool",
+
         ],
-        typeSpeed: 69,
+        typeSpeed: 100,
         backSpeed: 32,
-        backDelay: 1000,
+        backDelay: 3500,
         loop: false,
-        smartBackspace: true,
+        smartBackspace: false,
     });
 
     window.addEventListener('keydown', function (e) {
@@ -145,12 +151,18 @@
             preloader.style.display = 'none';
         }, 700);
     });
+    Object.defineProperty(window, "console", {
+        value: console,
+        writable: false,
+        configurable: false
+    });
 </script>
 
 
 <!-- scripts -->
 <script crossorigin="anonymous" src="https://kit.fontawesome.com/9105e9014d.js"></script>
 <script src="js/particles.js"></script>
+<script src="js/oh_no.js"></script>
 <script src="js/app.js"></script>
 <script src="js/main.js"></script>
 

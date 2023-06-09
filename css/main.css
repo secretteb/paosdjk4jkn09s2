@@ -359,6 +359,15 @@ h1, p, span, a, li {
     font-size: 4.20rem;
 }
 
+.ubschr2 {
+    text-align: center;
+    width: 100%;
+}
+
+.ubschr2 span {
+    font-size: 3rem;
+}
+
 
 .modal__img {max-width:60%;height:auto;display:block;}
 .modal{
@@ -576,12 +585,171 @@ img {
 }
 
 @media only screen and (min-width: 768px) {
-    /* Show the back arrow on desktop devices with a minimum width of 768px */
     .back-arrow {
+        display: block;
+    }
+}
+
+.webhook {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    transition: .3s cubic-bezier(0.42, 0, 0.16, 1.01);
+}
+
+.webhook:hover {
+    transform: scale(1.05);
+    color: #a28aff;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .webhook {
         display: block;
     }
 }
 
 .offlinecolor {
     color: #ff0000;
+}
+
+
+.wrap2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    margin-top: 2rem;
+}
+
+textarea,
+input[type="text"],
+button {
+    padding: 1rem;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 300px;
+    /* change font color and background color */
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+/*change placeholder color*/
+::placeholder {
+    color: #d5d5d5;
+    opacity: 1; /* Firefox */
+}
+
+textarea[name="text-input"] {
+    height: 150px;
+    width: 350px;
+    resize: none; /* Allow vertical resizing */
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem; /* Add spacing between input containers */
+}
+
+.button-group {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    align-items: flex-start; /* Align buttons on the top */
+    flex-wrap: wrap; /* Allow buttons to wrap if necessary */
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    /*backdrop-filter: blur(2px);*/
+    text-shadow: 2px 2px 6px #000000 !important;
+    width: 210px;
+    text-align: center;
+    cursor: pointer;
+    border: .187rem solid white;
+    padding: .6rem .5rem .7rem .5rem;
+    text-decoration: none;
+    color: white;
+    transition: all .4s cubic-bezier(0.42, 0, 0.24, 1.87);
+    border-radius: 1.563rem;
+    text-transform: capitalize;
+    letter-spacing: .15rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 .5rem 0 .5rem;
+}
+
+.center2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    padding: 4rem;
+    border-radius: 2rem;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: white;
+    color: black;
+}
+
+button:active {
+    transform: scale(1.02);
+    background: white;
+    color: black;
+}
+
+@media (max-width: 1159px) {
+    .ubschr2 {
+        /*transform: translateY(-5rem);*/
+    }
+    .ubschr2 span {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .wrap2 {
+        flex-direction: column;
+        /*transform: translateY(-5rem);*/
+    }
+
+    .button-group {
+        align-items: flex-start; /* Align buttons to the left on smaller screens */
+    }
+
+    button {
+        width: 75%; /* Make buttons occupy full width on smaller screens */
+        margin-bottom: 1rem;
+    }
+}
+
+
+/* CSS for the notifications */
+.notification {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    width: auto;
+    padding: 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 16px;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.notification.success {
+    background-color: #4caf50;
+}
+
+.notification.error {
+    background-color: #f44336;
 }
