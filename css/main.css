@@ -766,8 +766,18 @@ button:active {
 
 #info-icon:hover {
     width: 350px;
-    height: 80px;
+    height: 100px;
     border-radius: 15px;
+}
+
+#info-icon a {
+    color: #9d7bff;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+#info-icon a:hover {
+    color: #7b4fff;
 }
 
 .info-text {
