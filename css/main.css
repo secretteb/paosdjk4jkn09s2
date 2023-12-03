@@ -588,25 +588,31 @@ img {
     }
 }
 
-.webhook {
+.other-tools {
     display: none;
     position: fixed;
     bottom: 10px;
     right: 20px;
-    color: #fff;
     padding: 10px 15px;
-    font-size: 1.5rem;
-    transition: .3s cubic-bezier(0.42, 0, 0.16, 1.01);
+    /* make text right bound */
+    text-align: right;
 }
 
-.webhook:hover {
+.other-tools a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: .2s cubic-bezier(0.42, 0, 0.16, 1.01);
+}
+
+.other-tools a:hover {
     transform: scale(1.05);
     color: #a28aff;
     text-decoration: none;
 }
 
 @media only screen and (min-width: 768px) {
-    .webhook {
+    .other-tools {
         display: block;
     }
 }
