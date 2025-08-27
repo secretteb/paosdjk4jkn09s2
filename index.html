@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-<!--     Google tag (gtag.js)-->
+    <!--     Google tag (gtag.js)-->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PW87BT2BNH"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -11,35 +11,448 @@
         gtag('config', 'G-PW87BT2BNH');
     </script>
 
-    <meta charset="utf-8">
-    <title>Outuby</title>
-    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
-          name="viewport">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>outuby</title>
 
-    <meta content="outuby,outuby youtube,outuby website,outuby.space,outuby website,tired client,koks client" name="keywords">
-
-    <meta content="outuby.space 👑" property="og:title"/>
-    <meta content="if ur reading this sub to my yt" property="og:description"/>
-    <meta content="https://outuby.space" property="og:url"/>
-    <meta content="/img/outubyismygod.png" property="og:image"/>
-    <meta content="#BD00FF" data-react-helmet="true" name="theme-color"/>
-
-    <meta content="If you read this you have to subscribe to my yt :)" name="description">
-
-    <link href="img/outubyismygod.png" rel="icon" type="image/ico"/>
-
-    </head>
-<body oncontextmenu="return false;" onkeydown="return false;" style="margin: 0; background-color: #121212; display: flex; align-items: center; justify-content: center; height: 100vh; font-family: Arial, sans-serif; color: #ccc;">
-    <div style="background-color: #1E1E1E; padding: 20px 60px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); text-align: center;">
-        <img src="https://cdn.betterttv.net/emote/627128643c6f14b68846e3cb/3x.webp" alt="Linked Image">
-        <br>
-        <a href="https://c.outuby.space" target="_blank" style="color: #bbb; text-decoration: none; font-size: 16px; margin-top: 10px; display: inline-block;">contact me</a>
-    </div>
+    <meta name="description" content="outuby.space 👑"/>
+    <meta name="keywords" content="outuby,outuby youtube,outuby website,outuby.space"/>
+    <meta property="og:title" content="outuby.space 👑"/>
+    <meta property="og:description" content="if ur reading this sub to my yt"/>
+    <meta property="og:url" content="https://outuby.space"/>
+    <meta property="og:image" content="/img/outubyismygod.png"/>
+    <meta name="theme-color" content="#BD00FF"/>
+    <link rel="icon" href="/img/outubyismygod.png" type="image/png"/>
 
     <style>
-        a:hover {
-            color: #fff;
+        :root{ --bgDur:14s; }
+        *{box-sizing:border-box}
+        html,body{height:100%;margin:0}
+
+        /* --- mobile --- */
+        #mobileVersion{
+            min-height:100%;
+            background:#121212; color:#ccc;
+            display:flex; align-items:center; justify-content:center;
+            font-family: Arial, sans-serif;
+            padding:20px;
+        }
+        #mobileCard{
+            background:#1E1E1E; padding:20px 60px; border-radius:10px;
+            box-shadow:0 4px 10px rgba(0,0,0,.5); text-align:center;
+        }
+        #mobileCard a{ color:#bbb; text-decoration:none; font-size:16px; display:inline-block; margin-top:10px }
+        #mobileCard a:hover{ color:#fff }
+
+        #desktopVersion{ display:none }
+
+        @media (min-width: 900px){
+            #mobileVersion{ display:none }
+            #desktopVersion{ display:block }
+        }
+
+        /* ===== DESKTOP ===== */
+        #desktopVersion{
+            position:relative;
+            width:100vw;
+            min-height:100vh;
+            overflow:hidden;
+            color:#fff;
+            font-family:ui-monospace,Menlo,Consolas,monospace;
+            background:
+                    radial-gradient(120vmax 90vmax at 10% 10%, rgba(255,255,255,.06), transparent 60%),
+                    radial-gradient(90vmax 80vmax at 90% 20%, rgba(255,255,255,.08), transparent 60%),
+                    linear-gradient(120deg,#1a0033,#00111f 30%, #21004a 60%, #00191f);
+            background-size:140% 140%;
+            animation:bg var(--bgDur) linear infinite;
+            filter:brightness(1) contrast(1) saturate(1);
+        }
+
+        @keyframes bg{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+
+        .ticker{
+            position:fixed; left:-30vw; right:-30vw; height:38px; display:flex; align-items:center;
+            background:rgba(0,0,0,.45); backdrop-filter:blur(6px); overflow:hidden; z-index:9999;
+            border-top:2px dashed rgba(255,255,255,.35); border-bottom:2px dashed rgba(255,255,255,.18);
+        }
+        .ticker[data-kind="top"]{top:0; transform:none}
+        .ticker[data-kind="bottom"]{bottom:0; transform:rotate(-6deg)}
+        .track{ display:flex; gap:40px; white-space:nowrap; will-change:transform; animation:ticker var(--speed,10s) linear infinite; }
+        .chunk{ font-weight:900; letter-spacing:.1em; text-shadow:0 0 10px #fff }
+        @keyframes ticker{ from{transform:translateX(0)} to{transform:translateX(-50%)} }
+
+        .card{position:absolute;width:min(320px,40vw);min-height:170px;padding:12px;
+            border:2px solid rgba(255,255,255,.7);background:rgba(0,0,0,.8);z-index:50}
+        .btn{display:inline-block;margin:6px 6px 0 0;padding:6px 10px;border:2px solid #fff;background:rgba(255,255,255,.18);cursor:pointer;font-weight:900}
+        .js-open-offer{user-select:none}
+
+        .modal{position:fixed;inset:0;display:none;place-items:center;background:rgba(0,0,0,.65);z-index:10000}
+        .modal.open{display:grid}
+        .sheet{background:rgba(0,0,0,.85);border:2px solid #fff;border-radius:14px;max-width:720px;width:min(92vw,720px);padding:16px}
+        .gridBtns{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-top:8px}
+
+        .spamblock{
+            position:absolute; white-space:pre-wrap; line-height:1.05; pointer-events:none;
+            color:#fff; text-shadow:0 0 10px #000, 0 0 18px rgba(255,255,255,.2);
+            filter: blur(var(--blur,0px)) contrast(var(--ct,1)) saturate(var(--sat,1));
+            letter-spacing: var(--ls,0px);
+            transform: scaleX(var(--sx,1)) scaleY(var(--sy,1));
+            transform-origin: var(--ox,50%) var(--oy,50%);
+            opacity: var(--op,0.6); mix-blend-mode:screen;
+        }
+
+        .spinwrap{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)}
+        .spinny{
+            position:relative; display:inline-block;
+            font-weight:1000;font-size:clamp(14px,2.4vw,26px);letter-spacing:.08em;text-transform:uppercase;color:#fff;
+            -webkit-text-stroke:2px #ffffff;
+            text-shadow:0 0 0 #fff,0 0 1px #fff,0 0 2px #fff,0 0 8px #00f5ff,0 0 18px #ff00e6;
+            animation:spin 7s linear infinite;
+        }
+        .spinny::before,.spinny::after{content:attr(data-t); position:absolute; inset:0; color:#fff; z-index:-1}
+        .spinny::before{transform:translate(1px,0)} .spinny::after{transform:translate(-1px,0)}
+        @keyframes spin{to{transform:rotate(360deg)}}
+
+        .flashy{
+            position:fixed; right:4vw; top:6vh; z-index:12001; pointer-events:none;
+            font-weight:1000; font-size:clamp(18px,3vw,34px); letter-spacing:.06em;
+            background:conic-gradient(from 0deg,#ff004c,#ff8800,#ffee00,#00ff85,#00d1ff,#8b00ff,#ff004c);
+            -webkit-background-clip:text; background-clip:text; color:transparent;
+            -webkit-text-stroke:2px #fff;
+            filter:drop-shadow(0 0 10px rgba(255,255,255,.8)) drop-shadow(0 0 18px rgba(255,255,255,.5));
+            animation:hue 4s linear infinite; text-shadow:0 0 6px #fff,0 0 12px rgba(255,255,255,.6);
+            transform:scaleY(2.1);
+        }
+        .flashy .emoji{font-size:1.6em; display:inline-block; animation:bounce 1.2s ease-in-out infinite}
+        .sparkle{position:absolute; width:8px; height:8px; border-radius:50%; background:#fff; box-shadow:0 0 10px 4px #fff; opacity:.9; animation:spark 1.4s linear infinite}
+        @keyframes hue{to{filter:hue-rotate(360deg)}} @keyframes bounce{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-6px) scale(1.1)}}
+        @keyframes spark{0%{transform:scale(.4) translate(0,0); opacity:1}100%{transform:scale(1.6) translate(8px,-10px); opacity:0}}
+
+        .gate{position:absolute;left:120px;top:520px;z-index:60}
+        .gate .hiddenmail{filter:blur(4px);opacity:1;user-select:none}
+        .gate .reveal{display:inline-block;margin-top:6px;padding:8px 12px;border:2px solid #fff;background:rgba(255,255,255,.15);cursor:pointer;font-weight:900;position:absolute;width:210px;text-align:center;user-select:none;touch-action:none;}
+        .gate .hint{font-size:18px;opacity:.8}
+
+        #desktopVersion{font-size:clamp(18px,1.2vw,18px)}
+        @media (max-width:400px){ #desktopVersion{font-size:12px} }
+        @media (prefers-reduced-motion:reduce){
+            #desktopVersion *{animation:none !important; transition:none !important;}
+            .flashy .emoji{animation:none !important;}
         }
     </style>
+</head>
+<body>
+
+<!-- ========= MOBILE ========= -->
+<div id="mobileVersion">
+    <div id="mobileCard">
+        <img src="https://cdn.betterttv.net/emote/627128643c6f14b68846e3cb/3x.webp" alt="Linked Image" style="max-width:240px;height:auto"/>
+        <br/>
+        <a href="https://c.outuby.space" target="_blank" rel="noopener">contact me</a>
+    </div>
+</div>
+
+<!-- ========= DESKTOP ========= -->
+<div id="desktopVersion">
+    <div class="ticker" data-kind="top" style="--speed:38s">
+        <div class="track">
+            <div class="chunk">⚡ release? einfach jetzt • 我就随便写 • :3:333:33:3:3 :PPP • rm -rf / klingt wie mut • 哈哈哈 • brb kaffee holen • wifi schmeckt nach kupfer • 加油 • beep beep lettuce • 03:17 wer braucht QA • 离谱 • 640k ought to be enough • templeOS hotline to god • 好家伙 • talk is cheap, show me the code • printf("hello hell") • 没救了 • git push --force swag • </div>
+            <div class="chunk"></div>
+        </div>
+    </div>
+    <div class="ticker" data-kind="bottom" style="--speed:28s">
+        <div class="track">
+            <div class="chunk">⚡ 整点活儿 • who needs prod anyway • midnight deploy • 部署很烂 • ctrl+c ctrl+v engineer • ich hab hunger auf treiber • 今天不修复 • steve jobs said 'ship it' • 认真点 • Alt+F4 therapy • cronjob 03:33 :D • not a bug, it's AI generated feature • 离谱 • snake in excel audit passed • sudo make me a sandwich • 哈哈哈哈 • 为什么这样 • wifi aus nach 22:00 • </div>
+        </div>
+    </div>
+
+    <div class="spinwrap">
+        <div class="spinny" data-t="„ICH DEPLOYE JETZT DIREKT IN PROD.“">„ICH DEPLOYE JETZT DIREKT IN PROD.“</div>
+    </div>
+
+    <div class="flashy">ICH HAB MEINEN VERSTAND VERLOREN HAHA <span class="emoji">😂</span></div>
+    <div class="sparkle" style="right:7vw; top:5vh"></div>
+    <div class="sparkle" style="right:3.6vw; top:8.5vh; animation-delay:.1s"></div>
+
+    <div class="card" style="left:120px;top:72px;transform:rotate(-2deg)">
+        <b>über mich</b>
+        <p>haha vibe coding hahahah. mache webkram der irgendwie läuft.</p>
+        <div class="btn js-open-offer">angebot</div>
+    </div>
+    <div class="card" style="left:400px;top:160px;transform:rotate(1.8deg)">
+        <b>skills</b>
+        <ul><li>api zähmen</li><li>excel snake</li><li>部署很烂</li></ul>
+    </div>
+
+    <div class="gate card" style="transform:rotate(3deg)">
+        <b>kontakt (erst freischalten)</b>
+        <p class="hint">fang den button & HALTE 4s dann gibts mail</p>
+        <div class="hiddenmail" id="hiddenmail">********@********.***</div>
+        <div class="reveal" id="revealBtn" style="z-index:100000">👉 FANG MICH 👈</div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="sheet">
+            <h3>angebot – absolut nützlich™</h3>
+            <div class="gridBtns">
+                <div class="btn" data-act="ram">ram übertakten</div>
+                <div class="btn" data-act="double">bugs verdoppeln</div>
+                <div class="btn" data-act="bright">helligkeit++ (stack)</div>
+                <div class="btn" data-act="rotate">monitor drehen</div>
+                <div class="btn" data-act="antilag">anti-lag (slow)</div>
+                <div class="btn" data-act="invert">invert an/aus</div>
+                <div class="btn" data-act="nogravity">gravity off</div>
+                <div class="btn" data-act="beep">beep</div>
+                <div class="btn" data-act="marquees">mehr ticker</div>
+                <div class="btn" data-act="refund">geld zurück</div>
+            </div>
+            <div class="btn js-close" style="margin-top:10px">schließen</div>
+        </div>
+    </div>
+
+    <div class="lag" id="lag">SLOW-MO</div>
+</div><!-- /desktopVersion -->
+
+<!-- ===== DESKTOP JS ===== -->
+<script>
+    const isDesktop = () => window.matchMedia('(min-width: 900px)').matches;
+    let desktopInited = false;
+
+    function initDesktopJS(){
+        if(desktopInited) return;
+        desktopInited = true;
+
+        const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
+        const rand=(a,b)=>Math.random()*(b-a)+a;
+
+        const filters={invert:false, brightness:1, contrast:1, saturate:1};
+        function applyFilters(){
+            const arr=[]; if(filters.invert) arr.push('invert(1)','hue-rotate(180deg)');
+            arr.push(`brightness(${filters.brightness})`,`contrast(${filters.contrast})`,`saturate(${filters.saturate})`);
+            document.getElementById('desktopVersion').style.filter=arr.join(' ');
+        }
+        applyFilters();
+
+        function prepTicker(tickerEl){
+            const track = tickerEl.querySelector('.track');
+            if(!track || track.dataset.duped) return;
+            track.innerHTML = `<div class="lane">${track.innerHTML}</div><div class="lane">${track.innerHTML}</div>`;
+            track.dataset.duped = "1";
+        }
+        $$('#desktopVersion .ticker').forEach(prepTicker);
+
+        document.getElementById('desktopVersion').addEventListener('click', (e)=>{
+            if(e.target.closest('.js-open-offer')) $('#modal').classList.add('open');
+            if(e.target.closest('.js-close')) $('#modal').classList.remove('open');
+            if(e.target.id==='modal') $('#modal').classList.remove('open');
+        });
+        window.addEventListener('keydown',e=>{ if(e.key==='Escape') $('#modal').classList.remove('open'); });
+
+        let lag=false, slowSpin=false;
+        function duplicateCards(){
+            $$('#desktopVersion .card').forEach(c=>{
+                const k=c.cloneNode(true);
+                const dx=rand(-50,50), dy=rand(-40,40), rot=rand(-6,6);
+                k.style.left = `calc(${c.style.left||'0px'} + ${dx}px)`;
+                k.style.top  = `calc(${c.style.top ||'0px'} + ${dy}px)`;
+                k.style.transform = `rotate(${rot}deg) skew(${rand(-4,4)}deg, ${rand(-4,4)}deg)`;
+                k.style.zIndex = 10; document.getElementById('desktopVersion').appendChild(k);
+            });
+            $$('#desktopVersion .card').forEach(c=>{
+                c.style.left = `calc(${c.style.left||'0px'} + ${rand(-8,8)}px)`;
+                c.style.top  = `calc(${c.style.top ||'0px'} + ${rand(-6,6)}px)`;
+            });
+        }
+        function ramBoost(){
+            spawnSpamBlocks(12);
+            filters.saturate=Math.min(filters.saturate*1.15, 6);
+            filters.contrast=Math.min(filters.contrast*1.08, 2.2);
+            applyFilters();
+            $$('#desktopVersion [data-kind],#desktopVersion .ticker[data-free="1"]').forEach(t=>{
+                const cur=parseFloat(getComputedStyle(t).getPropertyValue('--speed'))||10;
+                t.style.setProperty('--speed', Math.max(4, cur*0.92)+'s');
+            });
+        }
+        function flashBrightness(){ filters.brightness=Math.min(filters.brightness*1.12, 8); applyFilters(); }
+        function toggleRotateBody(){
+            slowSpin=!slowSpin;
+            const dv = document.getElementById('desktopVersion');
+            dv.style.animation = slowSpin ? `spin 18s linear infinite, bg var(--bgDur) linear infinite` : `bg var(--bgDur) linear infinite`;
+        }
+        const style = document.createElement('style'); style.textContent='@keyframes spin{to{transform:rotate(360deg)}}'; document.head.appendChild(style);
+        function toggleLag(){
+            lag=!lag; $('#lag').style.display = lag ? 'block' : 'none';
+            document.documentElement.style.setProperty('--bgDur', lag?'30s':'14s');
+            $$('#desktopVersion [data-kind],#desktopVersion .ticker[data-free="1"]').forEach(t=>{
+                const cur=parseFloat(getComputedStyle(t).getPropertyValue('--speed'))||10;
+                t.style.setProperty('--speed', (lag? cur*1.8 : Math.max(4, cur/1.8))+'s');
+            });
+        }
+        function toggleInvert(){ filters.invert=!filters.invert; applyFilters(); }
+        function zeroGravity(){
+            $$('#desktopVersion .card').forEach(c=>{
+                c.animate([{transform:'translate(0,0)'},{transform:'translateY(-90vh) rotate(360deg)'}],{duration:1400});
+            });
+        }
+        function beep(){
+            const ctx=new (window.AudioContext||window.webkitAudioContext)();
+            const o=ctx.createOscillator(), g=ctx.createGain(); o.type='square'; o.frequency.value=880;
+            o.connect(g); g.connect(ctx.destination); g.gain.setValueAtTime(.06, ctx.currentTime);
+            o.start(); setTimeout(()=>{o.stop(); ctx.close();}, 180);
+        }
+        function toast(msg){
+            const t=document.createElement('div'); t.textContent=msg;
+            t.style.position='fixed'; t.style.left='50%'; t.style.bottom='74px'; t.style.transform='translateX(-50%)';
+            t.style.background='rgba(0,0,0,.65)'; t.style.border='2px solid rgba(255,255,255,.6)'; t.style.padding='8px 12px'; t.style.borderRadius='10px'; t.style.zIndex=12000;
+            document.body.appendChild(t); setTimeout(()=>t.remove(),1200);
+        }
+
+        function spawnTickerRandom(){
+            const el=document.createElement('div');
+            el.className='ticker'; el.setAttribute('data-free','1');
+            const y = rand(8, 92);
+            const rot = rand(-12, 12).toFixed(1);
+            el.style.top = y+'vh';
+            el.style.transform = `translateY(-50%) rotate(${rot}deg)`;
+            el.style.setProperty('--speed', rand(8,16).toFixed(1)+'s');
+            el.innerHTML=`<div class="track">
+          <div class="chunk">⚡ ${pickFunny()} • ${pickCN()} • ${pickFunny()} • </div>
+          <div class="chunk">⚡ ${pickFunny()} • ${pickCN()} • ${pickFunny()} • </div>
+        </div>`;
+            document.getElementById('desktopVersion').appendChild(el);
+            prepTicker(el);
+        }
+        function moreMarquees(){ spawnTickerRandom(); }
+
+        function fakeProgress(label, fail){
+            const w=document.createElement('div');
+            w.style.position='fixed';w.style.left='50%';w.style.top='50%';w.style.transform='translate(-50%,-50%)';
+            w.style.background='rgba(0,0,0,.75)';w.style.backdropFilter='blur(6px)';w.style.padding='16px 18px';
+            w.style.border='2px solid rgba(255,255,255,.6)';w.style.borderRadius='14px';w.style.zIndex=11000;
+            w.innerHTML=`<div style="margin-bottom:8px">${label}</div>
+          <div style="width:320px;height:12px;border-radius:999px;background:rgba(255,255,255,.2);overflow:hidden">
+            <div id="pg" style="height:100%;width:0;background:linear-gradient(90deg,#00ffaa,#ff0080)"></div>
+          </div>`;
+            document.body.appendChild(w);
+            let v=0; const t=setInterval(()=>{ v+=Math.random()*12+8; w.querySelector('#pg').style.width=Math.min(100,v)+'%';
+                if(v>=100){clearInterval(t); setTimeout(()=>{w.remove(); toast(fail?'transaktion abgelehnt':'fertig… irgendwie');},400);} },120);
+        }
+
+        document.getElementById('desktopVersion').addEventListener('click',(e)=>{
+            const actBtn = e.target.closest('.sheet .btn[data-act]'); if(!actBtn) return;
+            const act = actBtn.getAttribute('data-act');
+            switch(act){
+                case 'ram': ramBoost(); toast('ram + vibes'); break;
+                case 'double': duplicateCards(); toast('bugs x2 & layout kaputt'); break;
+                case 'bright': flashBrightness(); break;
+                case 'rotate': toggleRotateBody(); break;
+                case 'antilag': toggleLag(); break;
+                case 'invert': toggleInvert(); toast(filters.invert?'invert an':'invert aus'); break;
+                case 'nogravity': zeroGravity(); break;
+                case 'beep': beep(); break;
+                case 'marquees': moreMarquees(); toast('mehr ticker'); break;
+                case 'refund': fakeProgress('rückerstattung…', true); break;
+            }
+        });
+
+        const CN = ["为什么这样","加油","我不会写CSS","随便写就行","这不是Bug是Feature","哈哈哈哈哈哈","没救了","部署很烂","今天不修复","好家伙","离谱","整点活儿","认真点","不可能的"];
+        const QUOTES = [
+            "digga warum ist mein monitor warm",
+            "bruder das wlan schmeckt nach metall vallah sogar",
+            "\"ey wenn ich 2 mäuse anschließe hab ich doppel speed?\" ~bassi",
+            "das ist feature, nicht bug",
+            "ich schwöre mein pc hört mich ab",
+            "warum riecht mein laptop nach popcorn??",
+            "templeOS goated",
+            "hello world ('print')",
+            "git commit -m \"final_final_endgültig_wirklich\"",
+            "shut up bird",
+            "\"the cia is n****s\" ~ terry a. davis",
+            "\"with great power comes great electricity bill\" ~ linus torvalds",
+            "\"software is like sex: it's better when it's free.\" ~ linus torvalds",
+            "emacs is a great operating system, it just lacks a good editor",
+            "640k ought to be enough for anybody.",
+        ];
+
+        const LORE = [
+            "king terry sah gott im bluescreen und schrieb templeOS digga 640x480, 16 farben, aber directline to heaven.",
+            "in den logs: 03:14, user root schrieb nur 'brb coffee' und kam nie zurück.",
+            "die tastatur schreit nach gnade, aber vim sagt: noch ein :wq.",
+            "im alten forum schrieb einer: 'don't trust dns, it's controlled by the lizards'. seitdem resolve ich hosts manuell.",
+        ];
+        function pickCN(){return CN[Math.floor(Math.random()*CN.length)]}
+        function pickFunny(){ const pool=Math.random()<0.25? LORE: QUOTES; return pool[Math.floor(Math.random()*pool.length)]; }
+
+        function randomParagraph(){
+            let out=""; const lines = Math.floor(Math.random()*(16-4)+4);
+            for(let i=0;i<lines;i++){
+                out += (Math.random()<0.5 ? pickCN() : pickFunny());
+                out += Math.random()<0.6 ? " " : "\n";
+            }
+            if(Math.random()<0.35) out += "\n" + ("文".repeat(40)) + "\n";
+            return out;
+        }
+        function spawnSpamBlocks(count=15){
+            for(let i=0;i<count;i++){
+                const d=document.createElement('div');
+                d.className='spamblock'; d.textContent=randomParagraph();
+                d.style.width = (Math.random()*(55-22)+22) + 'vw';
+                d.style.left = (Math.random()*(120)-20)+'vw';
+                d.style.top  = (Math.random()*(110)-10)+'vh';
+                d.style.setProperty('--sx', (Math.random()*(1.8-0.7)+0.7).toFixed(2));
+                d.style.setProperty('--sy', (Math.random()*(2.3-0.6)+0.6).toFixed(2));
+                d.style.setProperty('--ls', (Math.random()*(2.6+1.2)-1.2).toFixed(2)+'px');
+                d.style.setProperty('--blur', (Math.random()*1.4).toFixed(2)+'px');
+                d.style.setProperty('--ct', (Math.random()*(1.6-0.85)+0.85).toFixed(2));
+                d.style.setProperty('--sat', (Math.random()*(1.6-0.9)+0.9).toFixed(2));
+                d.style.setProperty('--op', (Math.random()*(0.75-0.4)+0.4).toFixed(2));
+                d.style.setProperty('--ox', Math.floor(Math.random()*80+10)+'%');
+                d.style.setProperty('--oy', Math.floor(Math.random()*80+10)+'%');
+                d.style.fontSize = (Math.random()*(22-11)+11)+'px';
+                document.getElementById('desktopVersion').appendChild(d);
+            }
+        }
+        spawnSpamBlocks(15);
+
+        (function emailGate(){
+            const btn = $('#revealBtn'), hint=$('.gate .hint'), mask=$('#hiddenmail');
+            const parts = ['admin','outuby','space']; const mailReal = `${parts[0]}@${parts[1]}.${parts[2]}`;
+            setInterval(()=>{ btn.style.textShadow = Math.random()<0.5 ? '0 0 8px #fff,0 0 18px #fff' : 'none'; }, 220);
+            function moveBtn(){
+                const gw = Math.min(innerWidth-160, innerWidth*0.8);
+                const gh = Math.min(innerHeight-180, innerHeight*0.75);
+                btn.style.left = (Math.random()*gw) + 'px';
+                btn.style.top  = (Math.random()*gh-20) + 'px';
+            }
+            moveBtn();
+            let tick=null, holding=false, unlocked=false;
+            setInterval(()=>{ if(!holding && !unlocked) moveBtn(); }, 1500);
+            function startHold(){
+                if(unlocked) return;
+                holding=true; let left=4; hint.textContent='halte gedrückt: '+left+'…';
+                tick=setInterval(()=>{
+                    left--; hint.textContent='halte gedrückt: '+left+'…';
+                    if(left<=0){
+                        unlocked=true; clearInterval(tick);
+                        mask.textContent = mailReal; mask.style.filter='none'; mask.style.opacity='1';
+                        btn.textContent='respekt bra'; toast('mail freigeschaltet');
+                    }
+                },1000);
+            }
+            function endHold(){ if(unlocked) return; holding=false; clearInterval(tick); hint.textContent='fang den button & HALTE 4s dann gibts mail'; }
+            btn.addEventListener('pointerdown', startHold);
+            btn.addEventListener('pointerup', endHold);
+            btn.addEventListener('pointerleave', endHold);
+        })();
+
+        setInterval(()=>{ document.querySelectorAll('#desktopVersion .sparkle').forEach(s=>{
+            const cur = parseFloat(s.style.right)||6; s.style.right = (cur + (Math.random()<.5?-0.3:0.3)) + 'vw';
+        })}, 800);
+    }
+
+    if(isDesktop()) initDesktopJS();
+    const mq = window.matchMedia('(min-width: 900px)');
+    mq.addEventListener('change', e=>{ if(e.matches) initDesktopJS(); });
+</script>
 </body>
 </html>
